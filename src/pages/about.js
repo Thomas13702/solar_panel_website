@@ -35,9 +35,8 @@ export default function Product() {
                 rising popularity of solar power for both homes and businesses.
                 Despite its numerous advantages, solar energy faces efficiency
                 limitations, particularly on cloudy days. To overcome this
-                issue, our team have developed 'SoTurn,' a novel new solar
-                tracker that improves the efficiency and performance of solar
-                panels.
+                issue, our team have developed SoTurn, a novel new solar tracker
+                that improves the efficiency and performance of solar panels.
               </p>
               <p>
                 Our device is a retrofit specifically designed to be installed
@@ -76,7 +75,7 @@ export default function Product() {
                 the market for solar energy continues to develop, we are
                 delighted to be at the forefront of this emerging field and
                 believe our technology will play a vital part in determining the
-                future of sustainable energy by pushing humanity's constant need
+                future of sustainable energy by pushing humanitys constant need
                 to innovate.{" "}
               </p>
             </div>
