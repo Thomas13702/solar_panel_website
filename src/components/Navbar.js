@@ -87,12 +87,12 @@ export default function Navbar() {
           />
         </div>
 
-        <div className="hidden md:flex text-gray-100">
+        <div className="hidden md:flex text-gray-100 items-center">
           <NavLink to="/product">Product</NavLink>
           <NavLink to="/about">About Us</NavLink>
           <NavLink to="/contact">Contact Us</NavLink>
-          <NavLink to="/about">
-            <div className="">
+          <NavLink to="/about" className="ml-4">
+            <div className="flex items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

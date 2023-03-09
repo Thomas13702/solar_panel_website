@@ -59,7 +59,7 @@ export default function Product() {
   ];
   return (
     <Layout>
-      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-10 bg-gray-100">
         <div className="flex flex-col md:flex-row items-center justify-center">
           {/* Product Image */}
           <div className="w-full md:w-1/2 md:pr-8">
