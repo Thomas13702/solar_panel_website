@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "@/components/Layout";
 import CartItem from "@/components/CartItem";
+import Link from "next/link";
 
 export default function cart() {
   const items = [
@@ -67,7 +68,7 @@ export default function cart() {
                   </div>
 
                   <button className="mt-4 bg-indigo-600 text-white py-2 px-4 rounded-full hover:bg-indigo-700 w-full sm:w-auto">
-                    Checkout
+                    <Link href="/cart/checkout">Checkout</Link>
                   </button>
                 </div>
               </div>
