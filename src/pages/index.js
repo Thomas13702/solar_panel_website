@@ -41,38 +41,312 @@ export default function Home() {
   const currentReview = reviews[currentReviewIndex];
   return (
     <Layout>
-      {/* Image photo */}
-      <div className="md:flex">
-        <div className="md:flex-shrink-0 md:w-1/2 md:text-center">
-          <img
-            className="h-64 w-full object-cover md:h-auto md:w-64 mx-auto"
-            src="https://via.placeholder.com/400"
-            alt="Product Image"
-          />
-        </div>
-        <div className="p-8 md:w-1/2">
-          <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
-            New Product
+      {/* Product */}
+      <div className="flex flex-col items-center justify-center bg-gray-100 pb-12">
+        <div className="container max-w-4xl mx-auto flex flex-col md:flex-row items-center md:justify-between px-4 py-8">
+          <div className="flex flex-col items-center w-full md:w-1/2">
+            <h1 className="text-5xl md:text-6xl font-bold text-gray-800 text-center mb-4">
+              Product Name
+            </h1>
+            <p className="text-lg md:text-xl text-gray-600 text-center mb-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div className="flex flex-col md:flex-row items-center">
+              <a
+                href="#"
+                className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded"
+              >
+                Buy Now
+              </a>
+              <p className="text-gray-500 text-sm md:ml-4 mt-2 md:mt-0">
+                Free Shipping on All Orders
+              </p>
+            </div>
           </div>
-          <a
-            href="#"
-            className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
-          >
-            Product Name
-          </a>
-          <p className="mt-2 text-gray-500">Product Description</p>
-          <div className="mt-4">
-            <a
-              href="#"
-              className="inline-block bg-yellow-500 text-white rounded-full px-3 py-1 font-semibold mr-2"
+          <div className="w-full md:w-1/2">
+            <img
+              src="https://source.unsplash.com/800x600/?product"
+              alt="Product"
+              className="rounded shadow-lg"
+            />
+          </div>
+        </div>
+        <section className="container max-w-6xl mx-auto px-4 py-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-8">
+            Features
+          </h2>
+          <div className="flex flex-col md:flex-row items-center md:justify-between mb-12">
+            <div className="flex flex-col items-center mb-6 md:mb-0">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/32/32195.png"
+                alt="Feature 1"
+                className="h-16 w-16 mb-4"
+              />
+              <h3 className="text-xl font-bold text-gray-800 mb-2">
+                Feature 1
+              </h3>
+              <p className="text-gray-600 text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div className="flex flex-col items-center mb-6 md:mb-0">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/32/32195.png"
+                alt="Feature 2"
+                className="h-16 w-16 mb-4"
+              />
+              <h3 className="text-xl font-bold text-gray-800 mb-2">
+                Feature 2
+              </h3>
+              <p className="text-gray-600 text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/32/32195.png"
+                alt="Feature 3"
+                className="h-16 w-16 mb-4"
+              />
+              <h3 className="text-xl font-bold text-gray-800 mb-2">
+                Feature 3
+              </h3>
+              <p className="text-gray-600 text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col md:flex-row items-center md:justify-between">
+            <div className="flex flex-col items-center mb-6 md:mb-0">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/32/32195.png"
+                alt="Feature 4"
+                className="h-16 w-16 mb-4"
+              />
+              <h3 className="text-xl font-bold text-gray-800 mb-2">
+                Feature 4
+              </h3>
+              <p className="text-gray-600 text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div className="flex flex-col items-center mb-6 md:mb-0">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/32/32195.png"
+                alt="Feature 5"
+                className="h-16 w-16 mb-4"
+              />
+              <h3 className="text-xl font-bold text-gray-800 mb-2">
+                Feature 5
+              </h3>
+              <p className="text-gray-600 text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/32/32195.png"
+                alt="Feature 6"
+                className="h-16 w-16 mb-4"
+              />
+              <h3 className="text-xl font-bold text-gray-800 mb-2">
+                Feature 6
+              </h3>
+              <p className="text-gray-600 text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <div className="bg-gray-100 py-12">
+          <div className="container px-4 mx-auto">
+            <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">
+              Our Pricing Plans
+            </h2>
+            <div className="flex flex-col md:flex-row justify-center items-center">
+              <div className="bg-white rounded-lg p-6 shadow-lg mb-4 md:mb-0 mx-4">
+                <h3 className="text-xl font-bold text-gray-800 mb-2">Basic</h3>
+                <p className="text-gray-600 mb-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <h4 className="text-2xl font-bold text-gray-800 mb-4">
+                  $19/month
+                </h4>
+                <a
+                  href="#"
+                  className="text-white bg-blue-500 py-2 px-4 rounded hover:bg-blue-600 transition duration-300"
+                >
+                  Buy Now
+                </a>
+              </div>
+              <div className="bg-white rounded-lg p-6 shadow-lg mb-4 md:mb-0 mx-4">
+                <h3 className="text-xl font-bold text-gray-800 mb-2">
+                  Standard
+                </h3>
+                <p className="text-gray-600 mb-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <h4 className="text-2xl font-bold text-gray-800 mb-4">
+                  $49/month
+                </h4>
+                <a
+                  href="#"
+                  className="text-white bg-blue-500 py-2 px-4 rounded hover:bg-blue-600 transition duration-300"
+                >
+                  Buy Now
+                </a>
+              </div>
+              <div className="bg-white rounded-lg p-6 shadow-lg mb-4 md:mb-0 mx-4">
+                <h3 className="text-xl font-bold text-gray-800 mb-2">
+                  Premium
+                </h3>
+                <p className="text-gray-600 mb-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <h4 className="text-2xl font-bold text-gray-800 mb-4">
+                  $99/month
+                </h4>
+                <a
+                  href="#"
+                  className="text-white bg-blue-500 py-2 px-4 rounded hover:bg-blue-600 transition duration-300"
+                >
+                  Buy Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container px-4 mx-auto py-12">
+          <div className="flex flex-col md:flex-row justify-center items-center">
+            <div className="md:w-1/3 mb-6 md:mb-0">
+              <img
+                src="https://source.unsplash.com/800x600/?product"
+                alt="About Us"
+                class=" object-cover rounded-lg shadow-md"
+              />
+            </div>
+            <div className="md:w-1/2 px-4">
+              <h2 className="text-3xl font-bold text-gray-800 mb-6">
+                About Us
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <ul className="list-disc list-inside mb-6">
+                <li className="text-gray-600">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                </li>
+                <li className="text-gray-600">
+                  Sed do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua
+                </li>
+                <li className="text-gray-600">
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat
+                </li>
+              </ul>
+              <a
+                href="#"
+                className="text-white bg-blue-500 py-2 px-4 rounded hover:bg-blue-600 transition duration-300"
+              >
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-gray-100 py-12">
+          <div className="container px-4 mx-auto">
+            <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">
+              Frequently Asked Questions
+            </h2>
+            <div className="flex flex-col md:flex-row justify-center items-center">
+              <div className="bg-white rounded-lg p-6 shadow-lg mb-4 md:mb-0 mx-4 md:w-1/2">
+                <h3 className="text-xl font-bold text-gray-800 mb-2">
+                  How do I get started?
+                </h3>
+                <p className="text-gray-600">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-6 shadow-lg mb-4 md:mb-0 mx-4 md:w-1/2">
+                <h3 className="text-xl font-bold text-gray-800 mb-2">
+                  What payment methods do you accept?
+                </h3>
+                <p className="text-gray-600">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Carousel */}
+        <div className="flex flex-col items-center justify-center px-4 py-6 sm:p-8 ">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            What People are Saying
+          </h2>
+          <div className="text-center mb-4">
+            <p className="text-lg font-medium text-gray-900">
+              {currentReview.text}
+            </p>
+            <p className="text-gray-500 mt-2">{currentReview.name}</p>
+          </div>
+          <div className="flex justify-center">
+            <button
+              onClick={handlePreviousReview}
+              className="bg-gray-100 hover:bg-gray-200 text-gray-500 font-bold py-2 px-4 rounded-l-lg focus:outline-none"
             >
-              Buy Now
-            </a>
+              <svg
+                className="h-6 w-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M15 18l-6-6 6-6" />
+              </svg>
+            </button>
+            <button
+              onClick={handleNextReview}
+              className="bg-yellow-500 hover:bg-yellow-400 text-white font-bold py-2 px-4 rounded-r-lg focus:outline-none"
+            >
+              <svg
+                className="h-6 w-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M9 18l6-6-6-6" />
+              </svg>
+            </button>
           </div>
         </div>
       </div>
+
       {/* banner */}
-      <div className="bg-gray-100 py-4 my-12">
+      {/* <div className="bg-gray-100 py-4 my-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap items-center justify-center">
             <div className="w-full md:w-auto md:flex-1 flex items-center">
@@ -107,53 +381,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
-      {/* Carousel */}
-      <div className="flex flex-col items-center justify-center px-4 py-6 sm:p-8">
-        <h2 className="text-3xl font-bold text-gray-900 mb-6">
-          What People are Saying
-        </h2>
-        <div className="text-center mb-4">
-          <p className="text-lg font-medium text-gray-900">
-            {currentReview.text}
-          </p>
-          <p className="text-gray-500 mt-2">{currentReview.name}</p>
-        </div>
-        <div className="flex justify-center">
-          <button
-            onClick={handlePreviousReview}
-            className="bg-gray-100 hover:bg-gray-200 text-gray-500 font-bold py-2 px-4 rounded-l-lg focus:outline-none"
-          >
-            <svg
-              className="h-6 w-6"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="M15 18l-6-6 6-6" />
-            </svg>
-          </button>
-          <button
-            onClick={handleNextReview}
-            className="bg-yellow-500 hover:bg-yellow-400 text-white font-bold py-2 px-4 rounded-r-lg focus:outline-none"
-          >
-            <svg
-              className="h-6 w-6"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="M9 18l6-6-6-6" />
-            </svg>
-          </button>
-        </div>
-      </div>
+      </div> */}
     </Layout>
   );
 }
