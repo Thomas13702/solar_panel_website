@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Layout from "../components/Layout.js";
 import { useState } from "react";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -165,7 +166,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
         <div className="bg-gray-100 py-12">
           <div className="container px-4 mx-auto">
             <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">
@@ -227,7 +227,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         <div className="container px-4 mx-auto py-12">
           <div className="flex flex-col md:flex-row justify-center items-center">
             <div className="md:w-1/3 mb-6 md:mb-0">
@@ -269,8 +268,47 @@ export default function Home() {
             </div>
           </div>
         </div>
+        {/* Recommended Solar Panels */}
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto flex flex-col items-center">
+            <h2 className="text-4xl font-bold text-gray-800 text-center mb-8">
+              Recommended Solar Panels
+            </h2>
+            <p className="text-gray-500 text-center mb-8">
+              Check out our selection of high-quality solar panels to get the
+              most out of your solar panel system.
+            </p>
 
-        <div className="bg-gray-100 py-12">
+            <div className="bg-white rounded-lg shadow-lg px-8 py-6 mb-8 flex flex-col md:flex-row md:items-center justify-between w-full">
+              <div className="md:w-2/3 md:mr-8 mb-4 md:mb-0">
+                <h3 className="text-gray-800 font-bold text-lg mb-2">
+                  Find Your Perfect Solar Panel
+                </h3>
+                <p className="text-gray-500">
+                  Explore our selection of recommended solar panels to find the
+                  right fit for your home or business.
+                </p>
+              </div>
+              <Link
+                href="/recommendedSolarPanels"
+                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              >
+                Shop Now
+              </Link>
+            </div>
+
+            <div className="text-center">
+              <p className="text-gray-500">
+                Need help choosing the right solar panel?{" "}
+                <Link href="/contact" className="text-blue-500">
+                  Contact us
+                </Link>{" "}
+                for expert advice.
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* <div className="bg-gray-100 py-12">
           <div className="container px-4 mx-auto">
             <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">
               Frequently Asked Questions
@@ -296,7 +334,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* Carousel */}
         <div className="flex flex-col items-center justify-center px-4 py-6 sm:p-8 ">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">
@@ -341,6 +379,66 @@ export default function Home() {
                 <path d="M9 18l6-6-6-6" />
               </svg>
             </button>
+          </div>
+        </div>
+        <div className="bg-gray-100 py-16">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-4xl font-bold text-gray-800 text-center mb-8">
+                Request Maintenance
+              </h2>
+              <p className="text-gray-500 text-center mb-8">
+                If you are experiencing issues with your solar panel system,
+                fill out the form below and we will get in touch with you to
+                schedule maintenance.
+              </p>
+
+              <form
+                onSubmit={""}
+                className="bg-white rounded-lg shadow-lg px-8 py-6 mb-8"
+              >
+                <div className="mb-4">
+                  <label
+                    htmlFor="email"
+                    className="block text-gray-700 font-bold mb-2"
+                  >
+                    Email
+                  </label>
+                  <input
+                    id="email"
+                    type="email"
+                    className="border border-gray-400 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    placeholder="johndoe@example.com"
+                    value={""}
+                    onChange={(event) => setEmail(event.target.value)}
+                    required
+                  />
+                </div>
+                <div className="mb-4">
+                  <label
+                    htmlFor="message"
+                    className="block text-gray-700 font-bold mb-2"
+                  >
+                    Message
+                  </label>
+                  <textarea
+                    id="message"
+                    className="border border-gray-400 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    rows="4"
+                    placeholder="Describe the issue you are experiencing"
+                    required
+                  ></textarea>
+                </div>
+                <div className="text-center">
+                  <button
+                    type="submit"
+                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                  >
+                    Submit Request
+                  </button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
