@@ -53,16 +53,16 @@ export default function Product() {
               </div>
 
               <p className="text-lg text-center">
-                One thing we need to know is that Sun angles are fixed once the
-                location and time are determined, no matter what the weather
-                (rainy, cloudy) is now. According to Reda and Andreas&lsquo;s
-                (2008) report &lsquo;s formular, implementing into code and
-                downloading to Integrated circuit (IC).After downloading,
-                Integrated circuit automatically calculating the sun angles
-                after entering the customer&lsquo;s location and time zone, with
-                high accuracy and no privacy disclosure (offline). Our machine
-                will help maintain the orientation of the solar panel towards
-                the sun once we have the data regarding the sun angle.
+                It&lsquo;s important to note that the position of the sun is
+                fixed once its location and time have been determined,
+                regardless of the current weather conditions. To make use of
+                this knowledge, we&lsquo;ve implemented Reda and Andreas&lsquo;s
+                (2008) formula into our product&lsquo;s code and integrated it
+                into an IC. Once downloaded and installed, the IC accurately
+                calculates the sun&lsquo;s angles based on the customer&lsquo;s
+                location and time zone, without any privacy concerns. With this
+                data, our machine effortlessly maintains the orientation of the
+                solar panel towards the sun, ensuring maximum energy efficiency.
               </p>
               <div className="p-8">
                 <h1 className="text-3xl font-bold mb-4">
