@@ -12,20 +12,55 @@ const reviews = [
   {
     id: 1,
     name: "John Doe",
-    text: "This product is amazing! I can't believe how much it has improved my life.",
+    text: "Soturn is a game changer! It's the only product on the market that can rotate solar panels towards the sun for maximum energy efficiency.",
   },
   {
     id: 2,
     name: "Jane Smith",
-    text: "I was skeptical at first, but after using this product for a week, I'm a believer.",
+    text: "I was skeptical about Soturn at first, but after using it for a month, I'm convinced it's the best solution for solar energy optimization.",
+  },
+
+  {
+    id: 4,
+    name: "Samantha Lee",
+    text: "Soturn has completely exceeded my expectations. It's improved my solar panel energy output by 30%!",
   },
   {
-    id: 3,
-    name: "Bob Johnson",
-    text: "I've tried other products like this before, but none of them compare to this one.",
+    id: 5,
+    name: "Chris Taylor",
+    text: "I'm blown away by the impact Soturn has had on my energy bill. It's truly a revolutionary product.",
+  },
+  {
+    id: 6,
+    name: "Maria Rodriguez",
+    text: "Soturn has made such a difference in my energy usage. I highly recommend it to anyone who wants to save money and reduce their carbon footprint.",
+  },
+  {
+    id: 7,
+    name: "Samantha Lee",
+    text: "I never knew how much I needed Soturn until I tried it. It's the only product on the market that can truly optimize solar panel energy output.",
+  },
+  {
+    id: 8,
+    name: "Mike Williams",
+    text: "Soturn is the real deal. It's made a huge difference in my energy efficiency and I couldn't be happier with the results.",
+  },
+  {
+    id: 9,
+    name: "Emily Davis",
+    text: "I'm so glad I discovered Soturn. It's exceeded all of my expectations and has helped me save money on my energy bill.",
+  },
+  {
+    id: 10,
+    name: "Chris Thompson",
+    text: "I've been using Soturn for six months now and I'm still amazed at how much more efficient my solar panels are. It's the only product on the market worth considering.",
+  },
+  {
+    id: 11,
+    name: "Karen Rodriguez",
+    text: "Soturn is a game changer for anyone who cares about energy efficiency. It's the best product on the market for optimizing solar panel output.",
   },
 ];
-
 export default function Home() {
   const [currentReviewIndex, setCurrentReviewIndex] = useState(0);
 
@@ -71,12 +106,12 @@ export default function Home() {
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
             <div className="flex flex-col md:flex-row items-center">
-              <a
-                href="#"
+              <Link
+                href="/product"
                 className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded"
               >
                 Buy Now
-              </a>
+              </Link>
               <p className="text-gray-500 text-sm md:ml-4 mt-2 md:mt-0">
                 Free Shipping on All Orders
               </p>
