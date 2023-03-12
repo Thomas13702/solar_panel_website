@@ -79,7 +79,7 @@ export default function Product() {
                   <div className="relative h-64  ">
                     <div className=" h-full">
                       <Image
-                        src="/graph1.jpg"
+                        src="/Graph1.jpg"
                         alt="graph 1"
                         layout="fill"
                         objectFit="contain"
@@ -89,7 +89,7 @@ export default function Product() {
                   <div className="relative h-64  ">
                     <div className="flex flex-col justify-end h-full">
                       <Image
-                        src="/graph2.jpg"
+                        src="/Graph2.jpg"
                         alt="graph 2"
                         layout="fill"
                         objectFit="contain"
@@ -99,7 +99,7 @@ export default function Product() {
                   <div className="relative h-64 ">
                     <div className="flex flex-col justify-end h-full">
                       <Image
-                        src="/graph3.jpg"
+                        src="/Graph3.jpg"
                         alt="graph 3"
                         layout="fill"
                         objectFit="contain"
@@ -109,7 +109,7 @@ export default function Product() {
                   <div className="relative h-64  ">
                     <div className="flex flex-col justify-end h-full">
                       <Image
-                        src="/graph4.jpg"
+                        src="/Graph4.jpg"
                         alt="graph 4"
                         layout="fill"
                         objectFit="contain"
