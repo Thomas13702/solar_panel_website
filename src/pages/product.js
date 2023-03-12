@@ -32,8 +32,8 @@ export default function Product() {
     {
       id: 3,
       name: "Bob Johnson",
-      rating: 3,
-      comment: "It's okay, could be better.",
+      rating: 5,
+      comment: "Brilliant",
     },
   ]);
 
@@ -43,20 +43,85 @@ export default function Product() {
   };
 
   const fakeReviews = [
-    { id: 4, name: "Alice Brown", rating: 4, comment: "Good value for money." },
+    {
+      id: 1,
+      name: "John Doe",
+      comment:
+        "This product is amazing! I can't believe how much it has improved my life.",
+      rating: 5,
+    },
+    {
+      id: 2,
+      name: "Jane Smith",
+      comment:
+        "I was skeptical at first, but after using this product for a week, I'm a believer.",
+      rating: 5,
+    },
+    {
+      id: 3,
+      name: "Bob Johnson",
+      comment:
+        "I've tried other products like this before, but none of them compare to this one.",
+      rating: 5,
+    },
+    {
+      id: 4,
+      name: "Samantha Lee",
+      comment:
+        "This product has completely exceeded my expectations. I'm so glad I gave it a try.",
+      rating: 5,
+    },
     {
       id: 5,
-      name: "Mark Davis",
-      rating: 2,
-      comment: "Not as good as advertised.",
+      name: "Chris Taylor",
+      comment:
+        "I use this product every day and it never fails to impress me. Highly recommended!",
+      rating: 5,
     },
     {
       id: 6,
-      name: "Laura White",
+      name: "Maria Rodriguez",
+      comment:
+        "I'm so glad I discovered this product. It's made such a difference in my daily routine.",
       rating: 5,
-      comment: "This is the best product ever!",
+    },
+    {
+      id: 7,
+      name: "Samantha Lee",
+      comment:
+        "I'm blown away by how well this product works. It's truly a game changer.",
+      rating: 5,
+    },
+    {
+      id: 8,
+      name: "Mike Williams",
+      comment:
+        "I'm so glad I found this product. It's made a huge difference in my daily routine.",
+      rating: 5,
+    },
+    {
+      id: 9,
+      name: "Emily Davis",
+      comment:
+        "I was hesitant to try this at first, but I'm so glad I did. It's exceeded all of my expectations.",
+      rating: 5,
+    },
+    {
+      id: 10,
+      name: "Chris Thompson",
+      comment:
+        "I've been using this product for months now, and I'm still amazed at how well it works. Highly recommend!",
+      rating: 5,
+    },
+    {
+      id: 11,
+      name: "Karen Rodriguez",
+      comment:
+        "I never knew how much I needed this product until I tried it. Now, I can't imagine my life without it.",
+      rating: 5,
     },
   ];
+
   return (
     <Layout>
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-10 bg-gray-100">
