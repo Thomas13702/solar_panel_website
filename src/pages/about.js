@@ -14,14 +14,14 @@ export default function Product() {
           />
         </Head>
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-          <div className="lg:text-center">
+          <div className="lg:">
             <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
               About Us
             </h2>
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               We build mechanisms to rotate solar panels for maximum efficiency
             </p>
-            <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+            <p className="mt-4 max-w-2xl text-xl text-gray-500 ">
               Our business is dedicated to creating a more sustainable future by
               harnessing the power of the sun. We believe that solar energy is
               the key to reducing our reliance on fossil fuels and creating a
@@ -30,16 +30,16 @@ export default function Product() {
           </div>
           <div className="mt-10">
             <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
-              <p className="text-lg text-center mb-8">
+              <p className="text-lg  mb-8">
                 We use high-quality materials such as aluminium, steel, and
                 electronic components to build the fundamental structure of our
                 solar panel, and high-quality aluminium and rare-earth magnets
                 for the extendable arm and motor, respectively.
               </p>
-              <h2 className="font-bold mb-4 text-center text-lg">
+              <h2 className="font-bold mb-4  text-lg">
                 How do we track the sun?
               </h2>
-              <p className="text-lg text-center mb-8">
+              <p className="text-lg  mb-8">
                 If we want to trace the sun, we must know the sun angle (azimuth
                 and zenith angle).
               </p>
@@ -52,7 +52,7 @@ export default function Product() {
                 />
               </div>
 
-              <p className="text-lg text-center">
+              <p className="text-lg ">
                 It&lsquo;s important to note that the position of the sun is
                 fixed once its location and time have been determined,
                 regardless of the current weather conditions. To make use of
