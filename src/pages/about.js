@@ -36,17 +36,33 @@ export default function Product() {
                 solar panel, and high-quality aluminium and rare-earth magnets
                 for the extendable arm and motor, respectively.
               </p>
+              <h2 className="font-bold mb-4 text-center text-lg">
+                How do we track the sun?
+              </h2>
               <p className="text-lg text-center mb-8">
-                To track the sun, we use the azimuth and zenith angles. Once we
-                have your location and time zone, we implement the necessary
-                formula and download it onto an Integrated Circuit (IC) for
-                offline, accurate sun angle calculation with no privacy
-                disclosure.
+                If we want to trace the sun, we must know the sun angle (azimuth
+                and zenith angle).
               </p>
+              <div className="flex items-center justify-center mb-4">
+                <Image
+                  src="/Azumith.PNG"
+                  alt="Formulas"
+                  width={400}
+                  height={300}
+                />
+              </div>
+
               <p className="text-lg text-center">
-                Our machine will maintain the orientation of the solar panel
-                towards the sun with high accuracy, regardless of the weather
-                conditions.
+                One thing we need to know is that Sun angles are fixed once the
+                location and time are determined, no matter what the weather
+                (rainy, cloudy) is now. According to Reda and Andreas&lsquo;s
+                (2008) report &lsquo;s formular, implementing into code and
+                downloading to Integrated circuit (IC).After downloading,
+                Integrated circuit automatically calculating the sun angles
+                after entering the customer&lsquo;s location and time zone, with
+                high accuracy and no privacy disclosure (offline). Our machine
+                will help maintain the orientation of the solar panel towards
+                the sun once we have the data regarding the sun angle.
               </p>
               <div className="p-8">
                 <h1 className="text-3xl font-bold mb-4">
@@ -58,60 +74,7 @@ export default function Product() {
                   direct the motor to move in the directions indicated by the
                   following graph:
                 </p>
-                {/* <div className="p-8 grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2">
-                  <div className="relative h-64">
-                    <Image
-                      src="/graph1.jpg"
-                      alt="graph 1"
-                      layout="fill"
-                      objectFit="contain"
-                    />
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <p className="text-white text-lg font-bold bg-black bg-opacity-50 p-4">
-                        Graph 1 caption
-                      </p>
-                    </div>
-                  </div>
-                  <div className="relative h-64">
-                    <Image
-                      src="/graph2.jpg"
-                      alt="graph 2"
-                      layout="fill"
-                      objectFit="contain"
-                    />
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <p className="text-white text-lg font-bold bg-black bg-opacity-50 p-4">
-                        Graph 2 caption
-                      </p>
-                    </div>
-                  </div>
-                  <div className="relative h-64">
-                    <Image
-                      src="/graph3.jpg"
-                      alt="graph 3"
-                      layout="fill"
-                      objectFit="contain"
-                    />
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <p className="text-white text-lg font-bold bg-black bg-opacity-50 p-4">
-                        Graph 3 caption
-                      </p>
-                    </div>
-                  </div>
-                  <div className="relative h-64">
-                    <Image
-                      src="/graph4.jpg"
-                      alt="graph 4"
-                      layout="fill"
-                      objectFit="contain"
-                    />
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <p className="text-white text-lg font-bold bg-black bg-opacity-50 p-4">
-                        Graph 4 caption
-                      </p>
-                    </div>
-                  </div>
-                </div> */}
+
                 <div className="p-8 grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2">
                   <div className="relative h-64  ">
                     <div className=" h-full">
