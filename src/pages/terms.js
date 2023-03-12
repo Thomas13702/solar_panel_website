@@ -23,36 +23,36 @@ export default function PrivacyPolicy() {
           <p className="mb-4">1. No Representation or Warranty </p>
           <p className="mb-4">
             1.1. This website is provided by us on an “as is” basis to users.
-            You use this website at your own risk.{" "}
+            You use this website at your own risk.
           </p>
           <p className="mb-4">
             2. We make no representations, warranties or conditions, express or
-            implied, statutory or otherwise with respect to:{" "}
+            implied, statutory or otherwise with respect to:
           </p>
           <p className="mb-4">
             2.1. This website, its content, services, information, items or
-            materials, or{" "}
+            materials, or
           </p>
           <p className="mb-4">
             2.2. Any goods or services received through or advertised on this
             website or received through links provided on this website,
             including, without limitation, no representations, warranties or
             conditions of merchantability, suitability, fitness for a particular
-            purpose, non-infringement of proprietary rights or otherwise.{" "}
+            purpose, non-infringement of proprietary rights or otherwise.
           </p>
           <p className="mb-4">
             3. We make no representation, warranty or condition, express or
-            implied to you as to:{" "}
+            implied to you as to:
           </p>
           <p className="mb-4">
             3.1. The accuracy, content, timeliness, completeness, legality,
             reliability, quality or suitability of any content, information,
             advice, service, search results or products provided on or through
-            this website;{" "}
+            this website;
           </p>
           <p className="mb-4">
             3.2. That the service provided on the website will be uninterrupted
-            or error-free.{" "}
+            or error-free.
           </p>
           <p className="mb-4">
             4. This website contains links to other websites which are
@@ -61,7 +61,7 @@ export default function PrivacyPolicy() {
             information or opinions contained in any such linked website, and
             any link to another website shall not in any manner be construed as
             an endorsement by us of that website, or of the products or services
-            described therein.{" "}
+            described therein.
           </p>
           <p className="mb-4">
             5. A search using the service on this website may produce search
@@ -70,19 +70,19 @@ export default function PrivacyPolicy() {
             not locate unintended or objectionable content and assume no
             responsibility for the content of any site included in any search
             results or otherwise linked to by the services available on this
-            website.{" "}
+            website.
           </p>
           <p className="mb-4">
             6. The content on this website is intended to appeal to a wide range
             of audiences and as such not all of the material is suitable for use
             by children. Parents and guardians are reminded of the importance of
-            supervising young children when using the Internet.{" "}
+            supervising young children when using the Internet.
           </p>
           <p className="mb-4">
             7. Users of this website should not rely upon opinions expressed at
             this website when making business, financial, personal or other
             decisions. Additionally, we do not endorse the opinions of third
-            parties expressed on linked websites.{" "}
+            parties expressed on linked websites.
           </p>
           <p className="mb-4">8. Severability </p>
           <p className="mb-4">
@@ -94,15 +94,37 @@ export default function PrivacyPolicy() {
             Terms of Use in that jurisdiction without in any way invalidating
             the remaining provisions of these Terms of Use. The unenforceability
             of any provision in a given jurisdiction shall not make that
-            provision unenforceable in any other jurisdiction.{" "}
+            provision unenforceable in any other jurisdiction.
           </p>
           <p className="mb-4">9. Online Payments </p>
           <p className="mb-4">
             Payment of the fees shall be made in full by you in advance at the
             time of ordering. It is noticed that all prices quoted include VAT
-            at 20.0%{" "}
+            at 20.0%
           </p>
           <p className="mb-4">10. Term and Termination </p>
+          <p className="mb-4">
+            You agree that Soturn may, in its sole discretion and without prior
+            notice, terminate your access to the Website and/or block your
+            future access to the Website if we determine that you have violated
+            these Terms of Use or other agreements or guidelines that may be
+            associated with your use of the Website, or for other reasons that
+            may include but are not limited to (1) requests by law enforcement
+            or other government agencies, (2) discontinuance or material
+            modification of the Website or any service offered on or through the
+            Website, or (3) unexpected technical issues or problems. In the
+            event this agreement is terminated, the restrictions regarding
+            Content or materials appearing on the Website, and the
+            representations and warranties, indemnities, and limitations of
+            liabilities set forth in these Terms of Use will survive
+            termination. In the event that you are unsatisfied with the Website
+            or any services that may be provided by Soturn, your sole remedy is
+            to terminate this agreement.
+          </p>
+          <p className="mb-4">
+            THIS SITE IS OWNED AND OPERATED BY SOTURN. Soturn revised these
+            Terms on March 2023.
+          </p>
         </div>
       </div>
     </Layout>
