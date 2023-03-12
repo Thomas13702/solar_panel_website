@@ -15,6 +15,9 @@ const Footer = () => {
                 <Link href="/about">About Us</Link>
               </li>
               <li>
+                <Link href="/product">Products</Link>
+              </li>
+              <li>
                 <Link href="/contact">Contact Us</Link>
               </li>
               <li>
@@ -32,13 +35,13 @@ const Footer = () => {
                 <Link href="/services/web-design">Soturn</Link>
               </li>
               <li>
-                <Link href="/services/web-development">Our Solar Panels</Link>
+                <Link href="/work">Work With Us</Link>
               </li>
               <li>
-                <Link href="/services/digital-marketing">Maintenance</Link>
+                <Link href="/contact">Maintenance</Link>
               </li>
               <li>
-                <Link href="/services/seo">Installation</Link>
+                <Link href="/contact">Installation</Link>
               </li>
             </ul>
           </div>
