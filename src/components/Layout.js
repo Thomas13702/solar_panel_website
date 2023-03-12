@@ -31,5 +31,5 @@ export default function Layout({
 Layout.defaultProps = {
   title: "Soturn",
   description: "The smart fire alarm",
-  keywords: "fire firealarm iot internet of things fire service safety",
+  keywords: "Solar Panel Mechanisms",
 };
