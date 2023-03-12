@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+
+const withVideos = require("next-videos");
 const nextConfig = {
   reactStrictMode: true,
   images: {
@@ -11,8 +13,11 @@ const nextConfig = {
       "cdn.shortpixel.ai",
       "m.media-amazon.com",
       "cdn.greenmatch.co.uk",
+      "giphy.com",
     ],
   },
 };
 
 module.exports = nextConfig;
+
+module.exports = withVideos();

@@ -44,7 +44,24 @@ export default function Home() {
     <Layout>
       {/* Product */}
       <div className="flex flex-col items-center justify-center bg-gray-100 pb-12">
-        <div className="container max-w-4xl mx-auto flex flex-col md:flex-row items-center md:justify-between px-4 py-8">
+        {/* video */}
+        <div className="relative w-full h-96 overflow-hidden">
+          <video
+            className="w-full h-full object-cover"
+            autoPlay
+            muted
+            loop
+            src="./sun.mp4"
+          />
+          <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
+            <h1 className="text-white text-4xl font-bold uppercase text-center">
+              Soturn
+            </h1>
+          </div>
+        </div>
+        <div className="container max-w-9xl mx-auto flex flex-col md:flex-row items-center md:justify-between px-4 py-8">
+          {/* Showcase */}
+
           <div className="flex flex-col items-center w-full md:w-1/2">
             <h1 className="text-5xl md:text-6xl font-bold text-gray-800 text-center mb-4">
               Product Name
@@ -233,7 +250,7 @@ export default function Home() {
               <img
                 src="https://source.unsplash.com/800x600/?product"
                 alt="About Us"
-                class=" object-cover rounded-lg shadow-md"
+                className=" object-cover rounded-lg shadow-md"
               />
             </div>
             <div className="md:w-1/2 px-4">
