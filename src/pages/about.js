@@ -30,7 +30,133 @@ export default function Product() {
           </div>
           <div className="mt-10">
             <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
-              <p>
+              <p className="text-lg text-center mb-8">
+                We use high-quality materials such as aluminium, steel, and
+                electronic components to build the fundamental structure of our
+                solar panel, and high-quality aluminium and rare-earth magnets
+                for the extendable arm and motor, respectively.
+              </p>
+              <p className="text-lg text-center mb-8">
+                To track the sun, we use the azimuth and zenith angles. Once we
+                have your location and time zone, we implement the necessary
+                formula and download it onto an Integrated Circuit (IC) for
+                offline, accurate sun angle calculation with no privacy
+                disclosure.
+              </p>
+              <p className="text-lg text-center">
+                Our machine will maintain the orientation of the solar panel
+                towards the sun with high accuracy, regardless of the weather
+                conditions.
+              </p>
+              <div className="p-8">
+                <h1 className="text-3xl font-bold mb-4">
+                  Example 1: Harrison Building at Exeter University
+                </h1>
+                <p className="mb-4">
+                  We select Exeter University&lsquo;s Harrison Building at
+                  (50.73°, -3.5°), altitude=91m. Our integrated system will
+                  direct the motor to move in the directions indicated by the
+                  following graph:
+                </p>
+                {/* <div className="p-8 grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2">
+                  <div className="relative h-64">
+                    <Image
+                      src="/graph1.jpg"
+                      alt="graph 1"
+                      layout="fill"
+                      objectFit="contain"
+                    />
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <p className="text-white text-lg font-bold bg-black bg-opacity-50 p-4">
+                        Graph 1 caption
+                      </p>
+                    </div>
+                  </div>
+                  <div className="relative h-64">
+                    <Image
+                      src="/graph2.jpg"
+                      alt="graph 2"
+                      layout="fill"
+                      objectFit="contain"
+                    />
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <p className="text-white text-lg font-bold bg-black bg-opacity-50 p-4">
+                        Graph 2 caption
+                      </p>
+                    </div>
+                  </div>
+                  <div className="relative h-64">
+                    <Image
+                      src="/graph3.jpg"
+                      alt="graph 3"
+                      layout="fill"
+                      objectFit="contain"
+                    />
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <p className="text-white text-lg font-bold bg-black bg-opacity-50 p-4">
+                        Graph 3 caption
+                      </p>
+                    </div>
+                  </div>
+                  <div className="relative h-64">
+                    <Image
+                      src="/graph4.jpg"
+                      alt="graph 4"
+                      layout="fill"
+                      objectFit="contain"
+                    />
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <p className="text-white text-lg font-bold bg-black bg-opacity-50 p-4">
+                        Graph 4 caption
+                      </p>
+                    </div>
+                  </div>
+                </div> */}
+                <div className="p-8 grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2">
+                  <div className="relative h-64  ">
+                    <div className=" h-full">
+                      <Image
+                        src="/graph1.jpg"
+                        alt="graph 1"
+                        layout="fill"
+                        objectFit="contain"
+                      />
+                    </div>
+                  </div>
+                  <div className="relative h-64  ">
+                    <div className="flex flex-col justify-end h-full">
+                      <Image
+                        src="/graph2.jpg"
+                        alt="graph 2"
+                        layout="fill"
+                        objectFit="contain"
+                      />
+                    </div>
+                  </div>
+                  <div className="relative h-64 ">
+                    <div className="flex flex-col justify-end h-full">
+                      <Image
+                        src="/graph3.jpg"
+                        alt="graph 3"
+                        layout="fill"
+                        objectFit="contain"
+                      />
+                    </div>
+                  </div>
+                  <div className="relative h-64  ">
+                    <div className="flex flex-col justify-end h-full">
+                      <Image
+                        src="/graph4.jpg"
+                        alt="graph 4"
+                        layout="fill"
+                        objectFit="contain"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* <p>
                 The global shift towards sustainable energy is fuelling the
                 rising popularity of solar power for both homes and businesses.
                 Despite its numerous advantages, solar energy faces efficiency
@@ -77,7 +203,7 @@ export default function Product() {
                 believe our technology will play a vital part in determining the
                 future of sustainable energy by pushing humanitys constant need
                 to innovate.{" "}
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

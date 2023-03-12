@@ -45,7 +45,7 @@ export default function Home() {
       {/* Product */}
       <div className="flex flex-col items-center justify-center bg-gray-100 pb-12">
         {/* video */}
-        <div className="relative w-full h-96 overflow-hidden">
+        <div className="relative w-full h-96 overflow-hidden hidden sm:block">
           <video
             className="w-full h-full object-cover"
             autoPlay
@@ -255,33 +255,26 @@ export default function Home() {
             </div>
             <div className="md:w-1/2 px-4">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">
-                About Us
+                About Us - How does it work
               </h2>
               <p className="text-gray-600 mb-6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Soturn is built with high-quality materials like aluminum,
+                steel, and rare-earth magnets to ensure that it works
+                effectively for many years, even during severe weather
+                conditions. To track the sun, we use a solar panel that
+                maintains its orientation towards the sun with high accuracy and
+                precision, thanks to an Integrated Circuit that calculates the
+                sun angles after entering the customer&lsquo;s location and time
+                zone. For technical details on how we achieve this, click the
+                link below.
               </p>
-              <ul className="list-disc list-inside mb-6">
-                <li className="text-gray-600">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                </li>
-                <li className="text-gray-600">
-                  Sed do eiusmod tempor incididunt ut labore et dolore magna
-                  aliqua
-                </li>
-                <li className="text-gray-600">
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat
-                </li>
-              </ul>
-              <a
-                href="#"
+
+              <Link
+                href="/about"
                 className="text-white bg-blue-500 py-2 px-4 rounded hover:bg-blue-600 transition duration-300"
               >
                 Learn More
-              </a>
+              </Link>
             </div>
           </div>
         </div>
