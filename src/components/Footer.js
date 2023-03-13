@@ -33,7 +33,7 @@ const Footer = () => {
             <h4 className="text-white text-lg font-semibold mb-4">Services</h4>
             <ul className="text-gray-400 text-sm leading-loose">
               <li>
-                <Link href="/services/web-design">Soturn</Link>
+                <Link href="/">Soturn</Link>
               </li>
               <li>
                 <Link href="/work">Work With Us</Link>

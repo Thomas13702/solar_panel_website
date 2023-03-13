@@ -21,7 +21,7 @@ export default function Product() {
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               We build mechanisms to rotate solar panels for maximum efficiency
             </p>
-            <p className="mt-4 max-w-2xl text-xl text-gray-500 ">
+            <p className="mt-4  text-xl text-gray-500 ">
               Our business is dedicated to creating a more sustainable future by
               harnessing the power of the sun. We believe that solar energy is
               the key to reducing our reliance on fossil fuels and creating a
