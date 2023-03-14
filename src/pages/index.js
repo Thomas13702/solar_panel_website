@@ -134,7 +134,7 @@ export default function Home() {
             </div>
           </div>
           <div className="w-full md:w-1/2">
-            <div className="relative w-full h-96 overflow-hidden hidden sm:block">
+            <div className="relative w-full h-96 overflow-hidden">
               <video
                 className="w-full h-full object-cover"
                 autoPlay
