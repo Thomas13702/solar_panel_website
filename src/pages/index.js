@@ -134,11 +134,17 @@ export default function Home() {
             </div>
           </div>
           <div className="w-full md:w-1/2">
-            <img
+            <Image
+              src="/render.jpg"
+              width={700}
+              height={500}
+              alt="Soturn Render"
+            />
+            {/* <img
               src="https://source.unsplash.com/800x600/?product"
               alt="Product"
               className="rounded shadow-lg"
-            />
+            /> */}
           </div>
         </div>
         <section className="container max-w-6xl mx-auto px-4 py-8">
