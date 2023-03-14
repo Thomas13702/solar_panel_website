@@ -140,6 +140,7 @@ export default function Home() {
                 autoPlay
                 muted
                 loop
+                playsinline
                 src="./finished2.mp4"
               />
             </div>
