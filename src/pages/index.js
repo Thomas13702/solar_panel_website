@@ -225,56 +225,36 @@ export default function Home() {
             </h2>
             <div className="flex flex-col md:flex-row justify-center items-center">
               <div className="bg-white rounded-lg p-6 shadow-lg mb-4 md:mb-0 mx-4">
-                <h3 className="text-xl font-bold text-gray-800 mb-2">Basic</h3>
-                <p className="text-gray-600 mb-4">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <h4 className="text-2xl font-bold text-gray-800 mb-4">
-                  $19/month
-                </h4>
-                <a
-                  href="#"
-                  className="text-white bg-blue-500 py-2 px-4 rounded hover:bg-blue-600 transition duration-300"
-                >
-                  Buy Now
-                </a>
-              </div>
-              <div className="bg-white rounded-lg p-6 shadow-lg mb-4 md:mb-0 mx-4">
                 <h3 className="text-xl font-bold text-gray-800 mb-2">
-                  Standard
+                  Personal
                 </h3>
                 <p className="text-gray-600 mb-4">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <h4 className="text-2xl font-bold text-gray-800 mb-4">
-                  $49/month
-                </h4>
-                <a
-                  href="#"
+                <h4 className="text-2xl font-bold text-gray-800 mb-4">$19</h4>
+                <Link
+                  href="/product"
                   className="text-white bg-blue-500 py-2 px-4 rounded hover:bg-blue-600 transition duration-300"
                 >
                   Buy Now
-                </a>
+                </Link>
               </div>
               <div className="bg-white rounded-lg p-6 shadow-lg mb-4 md:mb-0 mx-4">
                 <h3 className="text-xl font-bold text-gray-800 mb-2">
-                  Premium
+                  Business
                 </h3>
                 <p className="text-gray-600 mb-4">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <h4 className="text-2xl font-bold text-gray-800 mb-4">
-                  $99/month
-                </h4>
-                <a
-                  href="#"
+                <h4 className="text-2xl font-bold text-gray-800 mb-4">$49</h4>
+                <Link
+                  href="/businessProduct"
                   className="text-white bg-blue-500 py-2 px-4 rounded hover:bg-blue-600 transition duration-300"
                 >
                   Buy Now
-                </a>
+                </Link>
               </div>
             </div>
           </div>

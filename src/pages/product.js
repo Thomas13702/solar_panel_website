@@ -2,6 +2,7 @@ import Image from "next/image";
 import Layout from "../components/Layout.js";
 import { useState } from "react";
 import StarPicker from "../components/StarPicker";
+import Link from "next/link";
 
 export default function Product() {
   const product = {
@@ -165,6 +166,14 @@ export default function Product() {
               </li>
             ))}
           </ul>
+        </div>
+
+        <div className="flex justify-center">
+          <Link href="/businessProduct">
+            <p className=" text-blue-500 rounded-md 0 transition duration-300 m-3">
+              Business looking to buy? Click here.
+            </p>
+          </Link>
         </div>
 
         {/* Reviews */}
