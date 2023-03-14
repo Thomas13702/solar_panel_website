@@ -138,9 +138,9 @@ export default function Home() {
               <video
                 className="w-full h-full object-cover"
                 autoPlay
+                muted
                 loop
                 playsinline
-                controls
                 src="./finished2.mp4"
               />
             </div>
