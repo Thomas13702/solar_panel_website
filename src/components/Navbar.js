@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import logo from "../../public/logo.svg";
+import logo from "../../public/logo1.svg";
 
 function NavLink({ to, children }) {
   return (
