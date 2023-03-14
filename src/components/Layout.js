@@ -30,6 +30,6 @@ export default function Layout({
 
 Layout.defaultProps = {
   title: "Soturn",
-  description: "Make your energy smart",
+  description: "Track the Sun, Save the Planet",
   keywords: "Solar Panel Mechanisms",
 };

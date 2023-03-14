@@ -89,21 +89,37 @@ export default function Home() {
             src="./sun.mp4"
           />
           <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
-            <h1 className="text-white text-4xl font-bold uppercase text-center">
-              Soturn
-            </h1>
+            <div className="flex flex-col items-center justify-center">
+              <h1 className="text-white text-4xl font-bold uppercase text-center">
+                Soturn
+              </h1>
+              <h3 className="mt-4 text-white text-3xl">
+                Track the Sun, Save the Planet
+              </h3>
+            </div>
           </div>
         </div>
         <div className="container max-w-9xl mx-auto flex flex-col md:flex-row items-center md:justify-between px-4 py-8">
           {/* Showcase */}
 
           <div className="flex flex-col items-center w-full md:w-1/2">
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-800 text-center mb-4">
-              Product Name
-            </h1>
-            <p className="text-lg md:text-xl text-gray-600 text-center mb-8">
+            <div className="md:hidden">
+              <h1 className="text-5xl md:text-6xl font-bold text-gray-800 text-center">
+                Soturn
+              </h1>
+              <h3 className="mb-4 text-black text-3xl text-center">
+                Track the Sun, Save the Planet
+              </h3>
+            </div>
+            <div className=" hidden sm:block">
+              <h1 className="text-3xl md:text-6xl font-bold text-gray-800 text-center mb-8">
+                Buy Now!
+              </h1>
+            </div>
+            <p className="text-lg md:text-xl text-gray-600 text-center mb-8 mx-6">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              lorem50
             </p>
             <div className="flex flex-col md:flex-row items-center">
               <Link
