@@ -26,17 +26,6 @@ function MobileNav({ open, setOpen }) {
       </div>
       <div className="flex flex-col ml-4 ">
         <Link
-          className="text-xl font-normal my-4 text-gray-900"
-          href="/product"
-          onClick={() =>
-            setTimeout(() => {
-              setOpen(!open);
-            }, 100)
-          }
-        >
-          Products
-        </Link>
-        <Link
           className="text-xl  font-normal my-4 text-gray-900"
           href="/about"
           onClick={() =>
@@ -47,6 +36,18 @@ function MobileNav({ open, setOpen }) {
         >
           About Us
         </Link>
+        <Link
+          className="text-xl font-normal my-4 text-gray-900"
+          href="/product"
+          onClick={() =>
+            setTimeout(() => {
+              setOpen(!open);
+            }, 100)
+          }
+        >
+          Products
+        </Link>
+
         <Link
           className="text-xl font-normal my-4 text-gray-900"
           href="/contact"
@@ -110,8 +111,8 @@ export default function Navbar() {
         </div>
 
         <div className="hidden md:flex text-gray-100 items-center">
-          <NavLink to="/product">Products</NavLink>
           <NavLink to="/about">About Us</NavLink>
+          <NavLink to="/product">Products</NavLink>
           <NavLink to="/contact">Contact Us</NavLink>
           <NavLink to="/cart">Cart</NavLink>
         </div>
