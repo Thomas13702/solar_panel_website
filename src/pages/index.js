@@ -140,8 +140,9 @@ export default function Home() {
                 Feature 1
               </h3>
               <p className="text-gray-600 text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Easy Maintenance: The rotating axis system requires minimal
+                maintenance, as it is designed to operate efficiently with
+                minimal intervention.
               </p>
             </div>
             <div className="flex flex-col items-center mb-6 md:mb-0">
@@ -154,8 +155,9 @@ export default function Home() {
                 Feature 2
               </h3>
               <p className="text-gray-600 text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Weather-Resistant: The rotating axis system is designed to
+                withstand harsh weather conditions, making it a reliable and
+                long-lasting energy solution.
               </p>
             </div>
             <div className="flex flex-col items-center">
@@ -168,8 +170,9 @@ export default function Home() {
                 Feature 3
               </h3>
               <p className="text-gray-600 text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Scalability: The rotating axis system can be easily scaled up or
+                down depending on energy needs, making it a flexible and
+                customizable solution.
               </p>
             </div>
           </div>
@@ -184,8 +187,9 @@ export default function Home() {
                 Feature 4
               </h3>
               <p className="text-gray-600 text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Quick Installation: The rotating axis system can be installed
+                quickly and easily, reducing downtime and minimizing disruption
+                to daily operations.
               </p>
             </div>
             <div className="flex flex-col items-center mb-6 md:mb-0">
@@ -198,8 +202,9 @@ export default function Home() {
                 Feature 5
               </h3>
               <p className="text-gray-600 text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Low Environmental Impact: Solar panel systems with rotating axis
+                technology have a low environmental impact, producing no noise
+                or emissions.
               </p>
             </div>
             <div className="flex flex-col items-center">
@@ -212,8 +217,9 @@ export default function Home() {
                 Feature 6
               </h3>
               <p className="text-gray-600 text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Long Lifespan: The rotating axis system has a long lifespan,
+                with some systems lasting up to 25 years or more, providing
+                long-term energy savings.
               </p>
             </div>
           </div>
