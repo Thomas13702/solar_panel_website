@@ -45,7 +45,7 @@ export default function Product() {
   const fakeReviews = [
     {
       id: 1,
-      name: "John Doe",
+      name: "John Smith",
       comment:
         "This product is amazing! I can't believe how much it has improved my life.",
       rating: 5,
@@ -59,7 +59,7 @@ export default function Product() {
     },
     {
       id: 3,
-      name: "Bob Johnson",
+      name: "Bob Smith",
       comment:
         "I've tried other products like this before, but none of them compare to this one.",
       rating: 5,
