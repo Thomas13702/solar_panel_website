@@ -9,7 +9,7 @@ const photos = [
   { src: "/Enoch.png", caption: "Enoch Ng - Marketing Lead Editor" },
   { src: "/Zihuan.jpg", caption: "Zihuan Zhang - Lead Test Engineer" },
   { src: "/default.jpg", caption: "Nijad Merhebi - Chief Financial Officer" },
-  { src: "/default.jpg", caption: "Angus Neville - Business Analyst" },
+  { src: "/Angus.png", caption: "Angus Neville - Business Analyst" },
   { src: "/default.jpg", caption: "Ewan Green - Pitch lead" },
   // Add more photos here
 ];
@@ -21,7 +21,7 @@ export default function ourMission() {
       <div className="grid grid-cols-4 gap-4">
         {photos.map((photo) => (
           <div key={photo.src}>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center ">
               <Image
                 src={photo.src}
                 alt={photo.caption}
