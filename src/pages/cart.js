@@ -9,14 +9,14 @@ export default function cart() {
       id: 1,
       name: "SoTurn",
       price: 100,
-      image: "/Soturn 3.jpg",
+      image: "/Soturn 3.JPG",
       quantity: 2,
     },
     {
       id: 2,
       name: "Installation",
       price: 150,
-      image: "/Soturn 3.jpg",
+      image: "/Soturn 3.JPG",
       quantity: 1,
     },
   ];
