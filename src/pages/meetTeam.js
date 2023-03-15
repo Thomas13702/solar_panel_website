@@ -2,156 +2,38 @@ import Layout from "@/components/Layout";
 import Image from "next/image";
 import React from "react";
 
+const photos = [
+  { src: "/default.jpg", caption: "Sophie - Project Manager" },
+  { src: "/Abdul.jpg", caption: "Abdul-Salam Jah - Researcher" },
+  { src: "/Tom.jpg", caption: "Thomas Pritchard - Lead Web Designer" },
+  { src: "/Enoch.png", caption: "Enoch Ng - Marketing Lead Editor" },
+  { src: "/Zihuan.jpg", caption: "Zihuan Zhang - Lead Test Engineer" },
+  { src: "/default.jpg", caption: "Nijad Merhebi - Chief Financial Officer" },
+  { src: "/default.jpg", caption: "Angus Neville - Business Analyst" },
+  { src: "/default.jpg", caption: "Ewan Green - Pitch lead" },
+  // Add more photos here
+];
+
 export default function ourMission() {
   return (
     <Layout>
-      <div className="bg-gray-100 min-h-screen">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="py-12 md:py-20">
-            <div className="max-w-xl mx-auto text-center">
-              <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl md:text-5xl">
-                Meet the Team
-              </h2>
+      <h1 className="text-center text-4xl font-bold mb-8">Meet the team</h1>
+      <div className="grid grid-cols-4 gap-4">
+        {photos.map((photo) => (
+          <div key={photo.src}>
+            <div className="flex items-center justify-center">
+              <Image
+                src={photo.src}
+                alt={photo.caption}
+                width={200}
+                height={500}
+              />
             </div>
-            <div className="mt-10 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
-              <div className="bg-white overflow-hidden shadow rounded-lg">
-                <div className="relative pb-48/100">
-                  <Image
-                    src="/image1.jpg"
-                    alt="Image 1"
-                    layout="fill"
-                    objectFit="cover"
-                    className="absolute"
-                  />
-                </div>
-                <div className="px-4 py-3">
-                  <h3 className="text-lg font-medium text-gray-900">Sophie</h3>
-                  <p className="text-lg text-gray-800">Project Manager</p>
-                </div>
-              </div>
-              <div className="bg-white overflow-hidden shadow rounded-lg">
-                <div className="relative pb-48/100">
-                  <Image
-                    src="/image2.jpg"
-                    alt="Image 2"
-                    layout="fill"
-                    objectFit="cover"
-                    className="absolute"
-                  />
-                </div>
-                <div className="px-4 py-3">
-                  <h3 className="text-lg font-medium text-gray-900">
-                    Abdul-Salam Jah
-                  </h3>
-                  <p className="text-lg text-gray-800">Researcher</p>
-                </div>
-              </div>
-              <div className="bg-white overflow-hidden shadow rounded-lg">
-                <div className="relative pb-48/100">
-                  <Image
-                    src="/image3.jpg"
-                    alt="Image 3"
-                    layout="fill"
-                    objectFit="cover"
-                    className="absolute"
-                  />
-                </div>
-                <div className="px-4 py-3">
-                  <h3 className="text-lg font-medium text-gray-900">
-                    Thomas Pritchard
-                  </h3>
-                  <p className="text-lg text-gray-800">Lead Web Designer</p>
-                </div>
-              </div>
-              <div className="bg-white overflow-hidden shadow rounded-lg">
-                <div className="relative pb-48/100">
-                  <Image
-                    src="/image4.jpg"
-                    alt="Image 4"
-                    layout="fill"
-                    objectFit="cover"
-                    className="absolute"
-                  />
-                </div>
-                <div className="px-4 py-3">
-                  <h3 className="text-lg font-medium text-gray-900">
-                    Zihuan Zhang
-                  </h3>
-                  <p className="text-lg text-gray-800">Lead Test Engineer</p>
-                </div>
-              </div>
-              <div className="bg-white overflow-hidden shadow rounded-lg">
-                <Image
-                  src="/Zihuan.jpg"
-                  alt="Image 5"
-                  height={500}
-                  width={150}
-                  className="absolute"
-                />
-                <div className="relative pb-48/100"></div>
-                <div className="px-4 py-3">
-                  <h3 className="text-lg font-medium text-gray-900">
-                    Angus Neville
-                  </h3>
-                  <p className="text-lg text-gray-800">Business Analyst</p>
-                </div>
-              </div>
-              <div className="bg-white overflow-hidden shadow rounded-lg">
-                <div className="relative pb-48/100">
-                  <Image
-                    src="/Enoch.png"
-                    alt="Image 6"
-                    layout="fill"
-                    objectFit="cover"
-                    className="absolute"
-                  />
-                </div>
-                <div className="px-4 py-3">
-                  <h3 className="text-lg font-medium text-gray-900">
-                    Enoch Ng
-                  </h3>
-                  <p className="text-lg text-gray-800">Marketing Lead Editor</p>
-                </div>
-              </div>
-              <div className="bg-white overflow-hidden shadow rounded-lg">
-                <div className="relative pb-48/100">
-                  <Image
-                    src="/image7.jpg"
-                    alt="Image 7"
-                    layout="fill"
-                    objectFit="cover"
-                    className="absolute"
-                  />
-                </div>
-                <div className="px-4 py-3">
-                  <h3 className="text-lg font-medium text-gray-900">
-                    Nijad Merhebi
-                  </h3>
-                  <p className="text-lg text-gray-800">
-                    Chief Financial Officer
-                  </p>
-                </div>
-              </div>
-              <div className="bg-white overflow-hidden shadow rounded-lg">
-                <div className="relative pb-48/100">
-                  <Image
-                    src="/image8.jpg"
-                    alt="Image 8"
-                    layout="fill"
-                    objectFit="cover"
-                    className="absolute"
-                  />
-                </div>
-                <div className="px-4 py-3">
-                  <h3 className="text-lg font-medium text-gray-900">
-                    Ewan Green
-                  </h3>
-                  <p className="text-lg text-gray-800">Pitch Lead</p>
-                </div>
-              </div>
+            <div className="text-center">
+              <p>{photo.caption}</p>
             </div>
           </div>
-        </div>
+        ))}
       </div>
     </Layout>
   );
