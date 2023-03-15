@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import PackageSelector from "./packageSelector";
 
 export default function description() {
   return (
@@ -28,8 +29,7 @@ export default function description() {
             luctus. Nulla facilisi.
           </p>
           <div className="flex items-center mb-4">
-            <span className="text-lg font-bold">$99.99</span>
-            <span className="text-sm ml-2 text-gray-400">/ per unit</span>
+            <PackageSelector />
           </div>
 
           <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-2 px-4 rounded">
