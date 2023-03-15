@@ -85,19 +85,32 @@ export default function Product() {
               <h1 className="font-bold mb-4 text-2xl text-black">
                 More About the product:
               </h1>
+              <h2 className="font-bold mb-4  text-lg">Materials</h2>
               <p className="text-lg  mb-8">
-                We use high-quality materials such as aluminium, steel, and
-                electronic components to build the fundamental structure of our
-                solar panel, and high-quality aluminium and rare-earth magnets
-                for the extendable arm and motor, respectively.
+                The fundamental materials to build our product are aluminium and
+                steel. The mechanical parts will be designed from high-quality
+                aluminium, as it&lsquo;s lightweight, resistant to corrosion and
+                has a high strength-to-weight ratio. Hence, SoTurn can continue
+                to work effectively for many years, even during severe weather
+                conditions, as these materials provide longevity.
               </p>
-              <h2 className="font-bold mb-4  text-lg">
-                How do we track the sun?
-              </h2>
+              <h2 className="font-bold mb-4  text-lg">Dimensions</h2>
               <p className="text-lg  mb-8">
-                If we want to trace the sun, we must know the sun angle (azimuth
-                and zenith angle).
+                Our product accommodates to sit different sized solar panels,
+                through having extendable arms which can fit to smaller,
+                residential solar panels, but also to larger, utility-scale
+                sized panels. We decided to develop the chassis in a cylindrical
+                shape, with a 40cm radius, and 30cm tall, so it can fit the
+                electrical circuits and motor in. The mechanical arm that moves
+                in the vertical axis reaches a maximum height of 20cm, the plate
+                which attaches to the solar panel is 80cm x 40 cm.
               </p>
+              <p className="text-lg  mb-8">
+                SoTurn tracks the sun through knowing the Azimuth and Zenith sun
+                angles. Once we have this data, our product can maintain the
+                orientation of the solar panel towards the sun.
+              </p>
+
               <div className="flex items-center justify-center mb-4">
                 <Image
                   src="/Azumith.PNG"
@@ -108,16 +121,10 @@ export default function Product() {
               </div>
 
               <p className="text-lg ">
-                It&lsquo;s important to note that the position of the sun is
-                fixed once its location and time have been determined,
-                regardless of the current weather conditions. To make use of
-                this knowledge, we&lsquo;ve implemented Reda and Andreas&lsquo;s
-                (2008) formula into our product&lsquo;s code and integrated it
-                into an IC. Once downloaded and installed, the IC accurately
-                calculates the sun&lsquo;s angles based on the customer&lsquo;s
-                location and time zone, without any privacy concerns. With this
-                data, our machine effortlessly maintains the orientation of the
-                solar panel towards the sun, ensuring maximum energy efficiency.
+                The suns position in the sky will vary seasonally, yet our
+                programming systems deal with this once the suns angles are
+                inputted. Hence your panels won&lsquo;t ever have a moment when
+                there not being shined upon.
               </p>
               <div className="p-8">
                 <h1 className="text-3xl font-bold mb-4">

@@ -26,7 +26,7 @@ export default function recommendedPanels() {
             </div>
             <Link
               href="/recommendedSolarPanels"
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded"
             >
               Shop Now
             </Link>
@@ -35,7 +35,10 @@ export default function recommendedPanels() {
           <div className="text-center">
             <p className="text-gray-500">
               Need help choosing the right solar panel?{" "}
-              <Link href="/contact" className="text-blue-500">
+              <Link
+                href="/contact"
+                className="text-yellow-500 hover:text-yellow-700"
+              >
                 Contact us
               </Link>{" "}
               for expert advice.

@@ -22,7 +22,7 @@ const AdditionalServices = ({ personal }) => {
             <li>
               <div className="flex">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-yellow-500 text-white">
                     <svg
                       className="h-6 w-6"
                       xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@ const AdditionalServices = ({ personal }) => {
             <li className="mt-10 md:mt-0">
               <div className="flex">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-yellow-500 text-white">
                     <svg
                       className="h-6 w-6"
                       xmlns="http://www.w3.org/2000/svg"

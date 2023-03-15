@@ -32,7 +32,7 @@ export default function aboutIndex() {
 
             <Link
               href="/about"
-              className="text-white bg-blue-500 py-2 px-4 rounded hover:bg-blue-600 transition duration-300"
+              className="text-white bg-yellow-500 hover:bg-yellow-700 py-2 px-4 rounded  transition duration-300"
             >
               Learn More
             </Link>

@@ -24,7 +24,7 @@ export default function pricingPlans() {
               </h4>
               <Link
                 href="/product"
-                className="text-white bg-blue-500 py-2 px-4 rounded hover:bg-blue-600 transition duration-300"
+                className="text-white bg-yellow-500 hover:bg-yellow-700 py-2 px-4 rounded 0 transition duration-300"
               >
                 Buy Now
               </Link>
@@ -39,11 +39,11 @@ export default function pricingPlans() {
                 energy goals.
               </p>
               <h4 className="text-2xl font-bold text-gray-800 mb-4">
-                From £95
+                From £1800
               </h4>
               <Link
                 href="/businessProduct"
-                className="text-white bg-blue-500 py-2 px-4 rounded hover:bg-blue-600 transition duration-300"
+                className="text-white bg-yellow-500 hover:bg-yellow-700 py-2 px-4 rounded  transition duration-300"
               >
                 Buy Now
               </Link>

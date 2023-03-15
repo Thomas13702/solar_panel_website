@@ -99,7 +99,7 @@ export default function Carousel() {
           </button>
           <button
             onClick={handleNextReview}
-            className="bg-yellow-500 hover:bg-yellow-400 text-white font-bold py-2 px-4 rounded-r-lg focus:outline-none"
+            className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-r-lg focus:outline-none"
           >
             <svg
               className="h-6 w-6"

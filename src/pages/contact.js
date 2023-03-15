@@ -33,7 +33,7 @@ const Contact = () => {
                   Name
                 </label>
                 <input
-                  className="w-full px-4 py-2 border border-gray-400 rounded-md focus:outline-none focus:ring focus:ring-blue-200 focus:border-blue-500"
+                  className="w-full px-4 py-2 border border-gray-400 rounded-md focus:outline-none focus:ring focus:ring-yellow-200 focus:border-yellow-500"
                   type="text"
                   id="name"
                   name="name"
@@ -48,7 +48,7 @@ const Contact = () => {
                   Email
                 </label>
                 <input
-                  className="w-full px-4 py-2 border border-gray-400 rounded-md focus:outline-none focus:ring focus:ring-blue-200 focus:border-blue-500"
+                  className="w-full px-4 py-2 border border-gray-400 rounded-md focus:outline-none focus:ring focus:ring-yellow-200 focus:border-yellow-500"
                   type="email"
                   id="email"
                   name="email"
@@ -63,7 +63,7 @@ const Contact = () => {
                   Message
                 </label>
                 <textarea
-                  className="w-full px-4 py-2 border border-gray-400 rounded-md focus:outline-none focus:ring focus:ring-blue-200 focus:border-blue-500"
+                  className="w-full px-4 py-2 border border-gray-400 rounded-md focus:outline-none focus:ring focus:ring-yellow-200 focus:border-yellow-500"
                   id="message"
                   name="message"
                   rows="6"
@@ -72,7 +72,7 @@ const Contact = () => {
               </div>
               <div className="text-right">
                 <button
-                  className="inline-block px-6 py-2 leading-none border rounded-md text-white bg-blue-500 hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-200 focus:border-blue-500"
+                  className="inline-block px-6 py-2 leading-none border rounded-md text-white bg-yellow-500 hover:bg-yellow-600 focus:outline-none focus:ring focus:ring-yellow-200 focus:border-yellow-500"
                   type="submit"
                 >
                   Send

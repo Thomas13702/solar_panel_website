@@ -27,7 +27,7 @@ export default function showcase() {
         <div className="flex flex-col md:flex-row items-center">
           <Link
             href="/product"
-            className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded"
           >
             Buy Now
           </Link>

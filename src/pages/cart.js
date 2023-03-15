@@ -67,7 +67,7 @@ export default function cart() {
                     <span>£{subtotal.toFixed(2)}</span>
                   </div>
 
-                  <button className="mt-4 bg-indigo-600 text-white py-2 px-4 rounded-full hover:bg-indigo-700 w-full sm:w-auto">
+                  <button className="mt-4 bg-yellow-500 text-white py-2 px-4 rounded-full hover:bg-yellow-700 w-full sm:w-auto">
                     <Link href="/cart/checkout">Checkout</Link>
                   </button>
                 </div>
