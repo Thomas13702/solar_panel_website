@@ -164,12 +164,11 @@ export default function Home() {
                 className="h-16 w-16 mb-4"
               />
               <h3 className="text-xl font-bold text-gray-800 mb-2">
-                Feature 1
+                Easy Maintenance
               </h3>
               <p className="text-gray-600 text-center">
-                Easy Maintenance: The rotating axis system requires minimal
-                maintenance, as it is designed to operate efficiently with
-                minimal intervention.
+                The rotating axis system requires minimal maintenance, as it is
+                designed to operate efficiently with minimal intervention.
               </p>
             </div>
             <div className="flex flex-col items-center mb-6 md:mb-0">
@@ -179,12 +178,12 @@ export default function Home() {
                 className="h-16 w-16 mb-4"
               />
               <h3 className="text-xl font-bold text-gray-800 mb-2">
-                Feature 2
+                Weather-Resistant
               </h3>
               <p className="text-gray-600 text-center">
-                Weather-Resistant: The rotating axis system is designed to
-                withstand harsh weather conditions, making it a reliable and
-                long-lasting energy solution.
+                The rotating axis system is designed to withstand harsh weather
+                conditions, making it a reliable and long-lasting energy
+                solution.
               </p>
             </div>
             <div className="flex flex-col items-center">
@@ -194,12 +193,12 @@ export default function Home() {
                 className="h-16 w-16 mb-4"
               />
               <h3 className="text-xl font-bold text-gray-800 mb-2">
-                Feature 3
+                Scalability
               </h3>
               <p className="text-gray-600 text-center">
-                Scalability: The rotating axis system can be easily scaled up or
-                down depending on energy needs, making it a flexible and
-                customizable solution.
+                The rotating axis system can be easily scaled up or down
+                depending on energy needs, making it a flexible and customizable
+                solution.
               </p>
             </div>
           </div>
@@ -211,12 +210,11 @@ export default function Home() {
                 className="h-16 w-16 mb-4"
               />
               <h3 className="text-xl font-bold text-gray-800 mb-2">
-                Feature 4
+                Quick Installation
               </h3>
-              <p className="text-gray-600 text-center">
-                Quick Installation: The rotating axis system can be installed
-                quickly and easily, reducing downtime and minimizing disruption
-                to daily operations.
+              <p className="text-gray-600 text-center mx-3">
+                The rotating axis system can be installed quickly and easily,
+                reducing downtime and minimizing disruption to daily operations.
               </p>
             </div>
             <div className="flex flex-col items-center mb-6 md:mb-0">
@@ -226,12 +224,11 @@ export default function Home() {
                 className="h-16 w-16 mb-4"
               />
               <h3 className="text-xl font-bold text-gray-800 mb-2">
-                Feature 5
+                Low Environmental Impact
               </h3>
-              <p className="text-gray-600 text-center">
-                Low Environmental Impact: Solar panel systems with rotating axis
-                technology have a low environmental impact, producing no noise
-                or emissions.
+              <p className="text-gray-600 text-center mx-3">
+                Solar panel systems with rotating axis technology have a low
+                environmental impact, producing no noise or emissions.
               </p>
             </div>
             <div className="flex flex-col items-center">
@@ -241,12 +238,12 @@ export default function Home() {
                 className="h-16 w-16 mb-4"
               />
               <h3 className="text-xl font-bold text-gray-800 mb-2">
-                Feature 6
+                Long Lifespan
               </h3>
-              <p className="text-gray-600 text-center">
-                Long Lifespan: The rotating axis system has a long lifespan,
-                with some systems lasting up to 25 years or more, providing
-                long-term energy savings.
+              <p className="text-gray-600 text-center mx-3">
+                The rotating axis system has a long lifespan, with some systems
+                lasting up to 25 years or more, providing long-term energy
+                savings.
               </p>
             </div>
           </div>
@@ -262,8 +259,11 @@ export default function Home() {
                   Personal
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Our personal package for SoTurn is the perfect solution for
+                  individuals looking to upgrade to renewable energy. With
+                  tailored consultations, installation services, and ongoing
+                  maintenance and support, we make it easy to switch to solar
+                  and start saving on your energy bills.
                 </p>
                 <h4 className="text-2xl font-bold text-gray-800 mb-4">$19</h4>
                 <Link
@@ -278,8 +278,11 @@ export default function Home() {
                   Business
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Our business package for rotating solar panels is the ideal
+                  solution for companies seeking to reduce their energy costs
+                  and carbon footprint. Our expert team will work with you to
+                  design a customized solar panel system that fits your specific
+                  needs and energy goals.
                 </p>
                 <h4 className="text-2xl font-bold text-gray-800 mb-4">$49</h4>
                 <Link

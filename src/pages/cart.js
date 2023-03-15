@@ -9,14 +9,14 @@ export default function cart() {
       id: 1,
       name: "Product 1",
       price: 9.99,
-      image: "/product1.jpg",
+      image: "/Soturn 3.jpg",
       quantity: 2,
     },
     {
       id: 2,
       name: "Product 2",
       price: 19.99,
-      image: "/product2.jpg",
+      image: "/Soturn 3.jpg",
       quantity: 1,
     },
   ];

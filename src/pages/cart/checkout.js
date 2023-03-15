@@ -153,7 +153,7 @@ const CheckoutPage = () => {
               <div className="flex items-center justify-between bg-white rounded p-6 mb-6 shadow-sm">
                 <div className="flex items-center">
                   <Image
-                    src="/images/iphone.png"
+                    src="/Soturn 3.jpg"
                     alt="iPhone"
                     width={64}
                     height={64}
@@ -170,7 +170,7 @@ const CheckoutPage = () => {
               <div className="flex items-center justify-between bg-white rounded p-6 mb-6 shadow-sm">
                 <div className="flex items-center">
                   <Image
-                    src="/images/macbook.png"
+                    src="/Soturn 3.jpg"
                     alt="MacBook"
                     width={64}
                     height={64}
