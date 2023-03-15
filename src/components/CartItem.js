@@ -18,7 +18,7 @@ const CartItem = ({ item }) => {
       <div className="w-3/4 px-4 flex flex-col justify-between">
         <div>
           <h3 className="font-semibold text-lg">{item.name}</h3>
-          <p className="text-gray-600">${item.price.toFixed(2)}</p>
+          <p className="text-gray-600">£{item.price.toFixed(2)}</p>
         </div>
         <div className="flex items-center justify-between mt-4">
           <div className="flex items-center">

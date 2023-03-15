@@ -1,6 +1,6 @@
 import React from "react";
 
-const AdditionalServices = () => {
+const AdditionalServices = ({ personal }) => {
   return (
     <div className="py-12 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -84,6 +84,36 @@ const AdditionalServices = () => {
             </li>
           </ul>
         </div>
+        {personal ? (
+          <div className="flex flex-col items-center justify-center">
+            <h2 className="text-2xl font-semibold mt-4 mb-3">Contact Us</h2>
+            <p className="text-gray-600 mb-1">
+              For any further questions, you can email
+              <a
+                href="mailto:customerservice@soturn.co.uk"
+                className="text-yellow-500 font-medium ml-2"
+              >
+                customerservice@soturn.co.uk
+              </a>
+              .
+            </p>
+          </div>
+        ) : (
+          <div className="flex flex-col items-center justify-center ">
+            <h2 className="text-2xl font-semibold mt-4 mb-3">Contact Us</h2>
+            <p className="text-gray-600 mb-1">
+              For any organization/company interested in a personalised service,
+              you can contact
+              <a
+                href="mailto:customerservice@soturn.co.uk"
+                className="text-yellow-500 font-medium ml-2"
+              >
+                Business@Soturn.co.uk
+              </a>
+              .
+            </p>
+          </div>
+        )}
       </div>
     </div>
   );

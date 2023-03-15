@@ -19,7 +19,9 @@ export default function pricingPlans() {
                 maintenance and support, we make it easy to switch to solar and
                 start saving on your energy bills.
               </p>
-              <h4 className="text-2xl font-bold text-gray-800 mb-4">$19</h4>
+              <h4 className="text-2xl font-bold text-gray-800 mb-4">
+                From £100
+              </h4>
               <Link
                 href="/product"
                 className="text-white bg-blue-500 py-2 px-4 rounded hover:bg-blue-600 transition duration-300"
@@ -36,7 +38,9 @@ export default function pricingPlans() {
                 customized solar panel system that fits your specific needs and
                 energy goals.
               </p>
-              <h4 className="text-2xl font-bold text-gray-800 mb-4">$49</h4>
+              <h4 className="text-2xl font-bold text-gray-800 mb-4">
+                From £95
+              </h4>
               <Link
                 href="/businessProduct"
                 className="text-white bg-blue-500 py-2 px-4 rounded hover:bg-blue-600 transition duration-300"

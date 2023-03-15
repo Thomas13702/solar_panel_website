@@ -20,7 +20,7 @@ export default function businessProduct() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-8 px-4">
           <Package
-            title="Personal package"
+            title="Organisation package"
             price="£90 for one, min of 20"
             features={[
               "Multiple solar panel trackers",
@@ -28,7 +28,7 @@ export default function businessProduct() {
             ]}
           />
           <Package
-            title="Personal package +"
+            title="Organisation package +"
             price="£95 for one, min of 20"
             features={[
               "Multiple solar panel trackers ",
@@ -37,7 +37,7 @@ export default function businessProduct() {
             ]}
           />
         </div>
-        <AdditionalServices />
+        <AdditionalServices personal={false} />
 
         <Features />
 

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-export default function features() {
+export default function features({ personal }) {
   const product = {
     id: 1,
     name: "Apple iPhone 12",
@@ -40,14 +40,15 @@ export default function features() {
           ))}
         </ul>
       </div>
-
-      <div className="flex justify-center">
-        <Link href="/businessProduct">
-          <p className=" text-blue-500 rounded-md 0 transition duration-300 m-3">
-            Business looking to buy? Click here.
-          </p>
-        </Link>
-      </div>
+      {personal && (
+        <div className="flex justify-center">
+          <Link href="/businessProduct">
+            <p className=" text-blue-500 rounded-md 0 transition duration-300 m-3">
+              Business looking to buy? Click here.
+            </p>
+          </Link>
+        </div>
+      )}
     </div>
   );
 }

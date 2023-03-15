@@ -8,7 +8,7 @@ const CheckoutPage = () => {
   return (
     <Layout>
       <Head>
-        <title>Checkout | Apple</title>
+        <title>Checkout</title>
       </Head>
       <div className="bg-gray-100">
         <div className="container mx-auto pt-10 pb-20">
@@ -160,12 +160,12 @@ const CheckoutPage = () => {
                   />
                   <div className="ml-4">
                     <h3 className="text-lg font-medium text-gray-800">
-                      iPhone 13 Pro
+                      SoTurn
                     </h3>
-                    <p className="text-gray-500">128GB, Graphite</p>
+                    <p className="text-gray-500"></p>
                   </div>
                 </div>
-                <p className="text-lg font-medium text-gray-800">$999.00</p>
+                <p className="text-lg font-medium text-gray-800">£100</p>
               </div>
               <div className="flex items-center justify-between bg-white rounded p-6 mb-6 shadow-sm">
                 <div className="flex items-center">
@@ -177,32 +177,27 @@ const CheckoutPage = () => {
                   />
                   <div className="ml-4">
                     <h3 className="text-lg font-medium text-gray-800">
-                      MacBook Pro
+                      Installation
                     </h3>
-                    <p className="text-gray-500">M1, 16GB RAM, 512GB SSD</p>
+                    <p className="text-gray-500"></p>
                   </div>
                 </div>
-                <p className="text-lg font-medium text-gray-800">$1,799.00</p>
+                <p className="text-lg font-medium text-gray-800">£150</p>
               </div>
               <div className="bg-white rounded p-6 mb-6 shadow-sm">
                 <div className="flex items-center justify-between mb-4">
                   <span className="text-gray-500">Subtotal</span>
-                  <span className="text-gray-800 font-medium">$2,798.00</span>
+                  <span className="text-gray-800 font-medium">£350</span>
                 </div>
-                <div className="flex items-center justify-between mb-4">
-                  <span className="text-gray-500">Tax</span>
-                  <span className="text-gray-800 font-medium">$223.84</span>
-                </div>
+
                 <div className="flex items-center justify-between mb-4">
                   <span className="text-gray-500">Shipping</span>
-                  <span className="text-gray-800 font-medium">$9.99</span>{" "}
+                  <span className="text-gray-800 font-medium">£0</span>{" "}
                 </div>
                 <div className="border-t border-gray-300 mt-4 pt-4">
                   <div className="flex items-center justify-between mb-4">
                     <span className="text-gray-800 font-semibold">Total</span>
-                    <span className="text-gray-800 font-semibold">
-                      $3,031.83
-                    </span>
+                    <span className="text-gray-800 font-semibold">£350</span>
                   </div>
                   <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full">
                     <Link href="/cart/checkoutSuccess">Complete Order</Link>

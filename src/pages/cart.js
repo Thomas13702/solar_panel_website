@@ -7,15 +7,15 @@ export default function cart() {
   const items = [
     {
       id: 1,
-      name: "Product 1",
-      price: 9.99,
+      name: "SoTurn",
+      price: 100,
       image: "/Soturn 3.jpg",
       quantity: 2,
     },
     {
       id: 2,
-      name: "Product 2",
-      price: 19.99,
+      name: "Installation",
+      price: 150,
       image: "/Soturn 3.jpg",
       quantity: 1,
     },
@@ -52,7 +52,7 @@ export default function cart() {
 
                   <div className="flex justify-between mb-2">
                     <span>Subtotal</span>
-                    <span>${subtotal.toFixed(2)}</span>
+                    <span>£{subtotal.toFixed(2)}</span>
                   </div>
 
                   <div className="flex justify-between mb-2">
@@ -64,7 +64,7 @@ export default function cart() {
 
                   <div className="flex justify-between mb-2">
                     <span>Total</span>
-                    <span>${subtotal.toFixed(2)}</span>
+                    <span>£{subtotal.toFixed(2)}</span>
                   </div>
 
                   <button className="mt-4 bg-indigo-600 text-white py-2 px-4 rounded-full hover:bg-indigo-700 w-full sm:w-auto">

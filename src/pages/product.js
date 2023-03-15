@@ -28,8 +28,8 @@ export default function Product() {
         <Description whatPackage={packages} />
 
         <PackageDescription />
-        <AdditionalServices />
-        <Features />
+        <AdditionalServices personal={true} />
+        <Features personal={true} />
 
         <Reviews />
       </div>

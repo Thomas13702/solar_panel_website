@@ -1,10 +1,5 @@
-import Head from "next/head";
-import Image from "next/image";
 import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
 import Layout from "../components/Layout.js";
-import { useState } from "react";
-import Link from "next/link";
 import Video from "../components/index/video.js";
 import Showcase from "../components/index/showcase.js";
 import Features from "../components/index/features.js";
