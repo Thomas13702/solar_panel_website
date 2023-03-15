@@ -18,10 +18,10 @@ function MobileNav({ open, setOpen }) {
         open ? "-translate-x-0" : "-translate-x-full"
       } transition-transform duration-300 ease-in-out filter drop-shadow-md `}
     >
-      <div className="flex items-center justify-center filter drop-shadow-md bg-gray-800 h-20">
+      <div className="flex items-center justify-center filter drop-shadow-md bg-gray-800 h-24">
         {/*logo container*/}
         <Link className="text-xl font-semibold text-gray-100" href="/">
-          <Image alt="Logo" src={logo} width={100} height={100} />
+          <Image alt="Logo" src={logo} width={150} height={100} />
         </Link>
       </div>
       <div className="flex flex-col ml-4 ">
@@ -82,7 +82,7 @@ export default function Navbar() {
       <MobileNav open={open} setOpen={setOpen} />
       <div className="w-3/12 flex items-center">
         <Link className="text-2xl font-semibold text-gray-100" href="/">
-          <Image alt="Logo" src={logo} width={100} height={100} />
+          <Image alt="Logo" src={logo} width={150} height={100} />
         </Link>
       </div>
       <div className="w-9/12 flex justify-end items-center">

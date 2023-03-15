@@ -8,8 +8,10 @@ import AdditionalServices from "@/components/product/additionalServices";
 
 export default function businessProduct() {
   const packages = [
-    { name: "Organisation", price: 95 },
-    { name: "Organisation+", price: 90 },
+    { name: "x20", price: 1800 },
+    { name: "x30", price: 2600 },
+    { name: "x40", price: 3550 },
+    { name: "x50", price: 4300 },
     { name: "One Time Maintenance", price: 60 },
     { name: "Business Installation", price: 150 },
   ];
@@ -18,22 +20,18 @@ export default function businessProduct() {
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-10 bg-gray-100">
         <Description whatPackage={packages} />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-8 px-4">
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-8 py-8 px-4">
+          <h1 className="font-bold text-2xl text-gray-500">
+            Package deals - if you&lsquo;re buying several solar trackers, we
+            have a package deal for you!
+          </h1>
           <Package
-            title="Organisation package"
-            price="£90 for one, min of 20"
+            title="Package Deal"
+            price="Only £150 Extra"
             features={[
-              "Multiple solar panel trackers",
-              "One-year free maintenance insurance",
-            ]}
-          />
-          <Package
-            title="Organisation package +"
-            price="£95 for one, min of 20"
-            features={[
-              "Multiple solar panel trackers ",
-              "Three-year free maintenance insurance",
-              "To-home installation (UK)",
+              "Free Shipping",
+              "Two-year free maintenance",
+              "Home Installation (Uk Only)",
             ]}
           />
         </div>

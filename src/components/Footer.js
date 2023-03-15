@@ -33,7 +33,7 @@ const Footer = () => {
             <h4 className="text-white text-lg font-semibold mb-4">Services</h4>
             <ul className="text-gray-400 text-sm leading-loose">
               <li>
-                <Link href="/">Soturn</Link>
+                <Link href="/">SoTurn</Link>
               </li>
               <li>
                 <Link href="/work">Work With Us</Link>
@@ -86,7 +86,7 @@ const Footer = () => {
         <hr className="border-gray-800 my-8" />
         <div className="flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
           <p className="mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Soturn. All rights reserved.
+            &copy; {new Date().getFullYear()} SoTurn. All rights reserved.
           </p>
           <ul className="flex space-x-4">
             <li>

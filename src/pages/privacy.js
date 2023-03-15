@@ -6,7 +6,7 @@ export default function PrivacyPolicy() {
       <div className="container mx-auto py-8">
         <h1 className="text-2xl font-bold mb-4">Privacy and Cookie Policy</h1>
 
-        <h5 className="font-bold mb-4">Privacy Policy - Soturn </h5>
+        <h5 className="font-bold mb-4">Privacy Policy - SoTurn </h5>
         <p className="mb-4">
           We respect your privacy. We are bound by the National Policy Privacy
           Principles. Those principles regulate most of our activities with
@@ -14,7 +14,7 @@ export default function PrivacyPolicy() {
           information.
         </p>
         <p className="mb-4">
-          1.1 Soturn respects your right to privacy and is committed to
+          1.1 SoTurn respects your right to privacy and is committed to
           safeguarding the privacy of our customers and website visitors. We
           adhere to the UK Privacy Principles contained in Data Protection
           Act(2018). This policy sets out how we collect and treat your personal
@@ -26,7 +26,7 @@ export default function PrivacyPolicy() {
         </p>
         <h5 className="font-bold mb-4">Collection of personal information</h5>
         <p className="mb-4">
-          2.1. Soturn will, from time to time, receive and store personal
+          2.1. SoTurn will, from time to time, receive and store personal
           information you enter onto our website, provided to us directly or
           given to us in other forms.
         </p>
@@ -48,7 +48,7 @@ export default function PrivacyPolicy() {
           How we collect your personal information
         </h5>
         <p className="mb-4">
-          3.1. Soturn collects personal information from you in a variety of
+          3.1. SoTurn collects personal information from you in a variety of
           ways, including when you interact with us electronically or in person,
           when you access our website and when we provide our services to you.
           We may receive personal information from third parties. If we do, we
@@ -56,7 +56,7 @@ export default function PrivacyPolicy() {
         </p>
         <h5 className="font-bold mb-4">Use of your personal information</h5>
         <p className="mb-4">
-          4.1. Soturn may use personal information collected from you to provide
+          4.1. SoTurn may use personal information collected from you to provide
           you with information, updates and our services. We may also make you
           aware of new and additional services and opportunities available to
           you. We may use your personal information to improve our services and
@@ -84,7 +84,7 @@ export default function PrivacyPolicy() {
         </p>
         <p className="mb-4">
           5.3. We may also use your personal information to protect the
-          copyright, trademarks, legal rights, property or safety of Soturn,
+          copyright, trademarks, legal rights, property or safety of SoTurn,
           https://soturn.vercel.app, its customers or third parties.
         </p>
         <p className="mb-4">
@@ -98,7 +98,7 @@ export default function PrivacyPolicy() {
           Security of your personal information
         </h5>
         <p className="mb-4">
-          6.1. Soturn is committed to ensuring that the information you provide
+          6.1. SoTurn is committed to ensuring that the information you provide
           to us is secure. To prevent unauthorised access or disclosure, we have
           put in place suitable physical, electronic and managerial procedures
           to safeguard and secure information and protect it from misuse,
@@ -177,7 +177,7 @@ export default function PrivacyPolicy() {
           other websites not owned or controlled by us. These links are meant
           for your convenience only. Links to third party websites do not
           constitute sponsorship or endorsement or approval of these websites.
-          Please be aware that Soturn is not responsible for the privacy
+          Please be aware that SoTurn is not responsible for the privacy
           practices of other such websites. We encourage our users to be aware,
           when they leave our website, to read the privacy statements of each
           website that collects personal identifiable information.  

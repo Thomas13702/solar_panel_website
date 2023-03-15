@@ -7,7 +7,7 @@ export default function showcase() {
       <div className="flex flex-col items-center w-full md:w-1/2">
         <div className="md:hidden">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-800 text-center">
-            Soturn
+            SoTurn
           </h1>
           <h3 className="mb-4 text-black text-3xl text-center">
             Track the Sun, Save the Planet

@@ -21,7 +21,7 @@ export default function description({ whatPackage }) {
         {/* Product Description */}
         <div className="w-full md:w-1/2 mt-8 md:mt-0">
           <h1 className="text-2xl font-medium mb-4">
-            Soturn - Solar Panel Rotation Device
+            SoTurn - Solar Panel Rotation Device
           </h1>
           <p className="text-gray-600 mb-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac

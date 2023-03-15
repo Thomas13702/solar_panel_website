@@ -29,7 +29,7 @@ export default function Layout({
 }
 
 Layout.defaultProps = {
-  title: "Soturn",
+  title: "SoTurn",
   description: "Track the Sun, Save the Planet",
   keywords: "Solar Panel Mechanisms",
 };
