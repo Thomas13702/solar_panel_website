@@ -41,7 +41,7 @@ export default function features({ personal }) {
         </ul>
       </div>
       {personal && (
-        <div className="flex justify-center">
+        <div className="flex justify-center text-3xl">
           <Link href="/businessProduct">
             <p className=" text-blue-500 rounded-md 0 transition duration-300 m-3">
               Business looking to buy? Click here.

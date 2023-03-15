@@ -56,35 +56,27 @@ export default function Product() {
                 provider of solar tracking equipment.
               </p>
               <h1 className="font-bold mb-4 text-2xl text-black">
-                Our Clients:
-              </h1>
-              <p className="text-lg  mb-8">
-                Our solar tracker can be an excellent investment for consumers
-                and businesses looking to reduce energy expenses while also
-                demonstrating their dedication to sustainability. Our solar
-                tracker is easy to connect into current solar panel systems,
-                giving our customers new ways to improve their energy efficiency
-                and reduce their carbon footprint. SoTurn can be used in a
-                variety of different settings such as homes and apartment
-                buildings, as well as offices, schools, hospitals, and retail
-                stores for commercial use. Our solar trackers can also be
-                customised to fit a variety of configurations including
-                ground-mounted, rooftop-mounted, and carport-mounted systems.
-                Additionally, our solar tracker is built to last, making it a
-                fantastic long-term investment for clients looking to save money
-                on their energy costs while also contributing to a cleaner
-                environment.
-              </p>
-              <p className="text-lg  mb-8">
-                Our solar tracker product is intended for use by consumers and
-                businesses, but we are also open to the idea of being acquired
-                by a solar panel manufacturer and operating as their subsidiary.
-                This would allow us to take advantage of their financial
-                backing, expertise, reputation, and economies of scale.{" "}
-              </p>
-              <h1 className="font-bold mb-4 text-2xl text-black">
                 More About the product:
               </h1>
+              <h2 className="font-bold mb-4  text-lg">How it Works:</h2>
+              <p className="text-lg  mb-8">
+                Our product is a small, mechanism that can be attached to solar
+                panels, to make them move on a vertical and rotational axis, so
+                they protrude further above ground level and are always facing
+                the sun.
+              </p>
+              <h2 className="font-bold mb-4  text-lg">
+                How SoTurn tracks the sun:
+              </h2>
+              <p className="text-lg  mb-8">
+                SoTurn tracks the sun through knowing the Azimuth and Zenith sun
+                angles. Once we have this data, our product can maintain the
+                orientation of the solar panel towards the sun. The suns
+                position in the sky will vary seasonally, yet our programming
+                systems deal with this once the suns angles are inputted. Hence
+                your panels won&lsquo;t ever have a moment when there not being
+                shined upon.
+              </p>
               <h2 className="font-bold mb-4  text-lg">Materials</h2>
               <p className="text-lg  mb-8">
                 The fundamental materials to build our product are aluminium and
@@ -111,75 +103,39 @@ export default function Product() {
                 orientation of the solar panel towards the sun.
               </p>
 
-              <div className="flex items-center justify-center mb-4">
-                <Image
-                  src="/Azumith.PNG"
-                  alt="Formulas"
-                  width={400}
-                  height={300}
-                />
-              </div>
-
               <p className="text-lg ">
                 The suns position in the sky will vary seasonally, yet our
                 programming systems deal with this once the suns angles are
                 inputted. Hence your panels won&lsquo;t ever have a moment when
                 there not being shined upon.
               </p>
-              <div className="p-8">
-                <h1 className="text-3xl font-bold mb-4">
-                  Example 1: Harrison Building at Exeter University
-                </h1>
-                <p className="mb-4">
-                  We select Exeter University&lsquo;s Harrison Building at
-                  (50.73°, -3.5°), altitude=91m. Our integrated system will
-                  direct the motor to move in the directions indicated by the
-                  following graph:
-                </p>
-
-                <div className="p-8 grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2">
-                  <div className="relative h-64  ">
-                    <div className=" h-full">
-                      <Image
-                        src="/Graph1.jpg"
-                        alt="graph 1"
-                        layout="fill"
-                        objectFit="contain"
-                      />
-                    </div>
-                  </div>
-                  <div className="relative h-64  ">
-                    <div className="flex flex-col justify-end h-full">
-                      <Image
-                        src="/Graph2.jpg"
-                        alt="graph 2"
-                        layout="fill"
-                        objectFit="contain"
-                      />
-                    </div>
-                  </div>
-                  <div className="relative h-64 ">
-                    <div className="flex flex-col justify-end h-full">
-                      <Image
-                        src="/Graph3.jpg"
-                        alt="graph 3"
-                        layout="fill"
-                        objectFit="contain"
-                      />
-                    </div>
-                  </div>
-                  <div className="relative h-64  ">
-                    <div className="flex flex-col justify-end h-full">
-                      <Image
-                        src="/Graph4.jpg"
-                        alt="graph 4"
-                        layout="fill"
-                        objectFit="contain"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <h1 className="font-bold mb-4 text-2xl text-black">
+                Our Clients:
+              </h1>
+              <p className="text-lg  mb-8">
+                Our solar tracker can be an excellent investment for consumers
+                and businesses looking to reduce energy expenses while also
+                demonstrating their dedication to sustainability. Our solar
+                tracker is easy to connect into current solar panel systems,
+                giving our customers new ways to improve their energy efficiency
+                and reduce their carbon footprint. SoTurn can be used in a
+                variety of different settings such as homes and apartment
+                buildings, as well as offices, schools, hospitals, and retail
+                stores for commercial use. Our solar trackers can also be
+                customised to fit a variety of configurations including
+                ground-mounted, rooftop-mounted, and carport-mounted systems.
+                Additionally, our solar tracker is built to last, making it a
+                fantastic long-term investment for clients looking to save money
+                on their energy costs while also contributing to a cleaner
+                environment.
+              </p>
+              <p className="text-lg  mb-8">
+                Our solar tracker product is intended for use by consumers and
+                businesses, but we are also open to the idea of being acquired
+                by a solar panel manufacturer and operating as their subsidiary.
+                This would allow us to take advantage of their financial
+                backing, expertise, reputation, and economies of scale.{" "}
+              </p>
             </div>
           </div>
         </div>

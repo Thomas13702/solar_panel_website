@@ -30,10 +30,10 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4 className="text-white text-lg font-semibold mb-4">Services</h4>
+            <h4 className="text-white text-lg font-semibold mb-4">Pages</h4>
             <ul className="text-gray-400 text-sm leading-loose">
               <li>
-                <Link href="/">SoTurn</Link>
+                <Link href="/ourMission">Meet The Team</Link>
               </li>
               <li>
                 <Link href="/work">Work With Us</Link>
