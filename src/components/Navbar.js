@@ -61,6 +61,17 @@ function MobileNav({ open, setOpen }) {
         </Link>
         <Link
           className="text-xl font-normal my-4 text-gray-900"
+          href="/ourMission"
+          onClick={() =>
+            setTimeout(() => {
+              setOpen(!open);
+            }, 100)
+          }
+        >
+          Meet the team
+        </Link>
+        <Link
+          className="text-xl font-normal my-4 text-gray-900"
           href="/cart"
           onClick={() =>
             setTimeout(() => {
@@ -114,6 +125,7 @@ export default function Navbar() {
           <NavLink to="/about">About Us</NavLink>
           <NavLink to="/product">Products</NavLink>
           <NavLink to="/contact">Contact Us</NavLink>
+          <NavLink to="/ourMission">Meet the team</NavLink>
           <NavLink to="/cart">Cart</NavLink>
         </div>
       </div>
