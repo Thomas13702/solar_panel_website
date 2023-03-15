@@ -19,8 +19,10 @@ export default function showcase() {
           </h1>
         </div>
         <p className="text-lg md:text-xl text-gray-600 text-center mb-8 mx-6">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem50
+          Our product is a small, cylindrical block with a motor inside that can
+          be attached to solar panels, to make them move on a vertical and
+          rotational axis, so they protrude further above ground level and are
+          always facing the sun.
         </p>
         <div className="flex flex-col md:flex-row items-center">
           <Link

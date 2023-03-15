@@ -24,9 +24,10 @@ export default function description({ whatPackage }) {
             SoTurn - Solar Panel Rotation Device
           </h1>
           <p className="text-gray-600 mb-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
-            semper nunc. Donec in felis augue. Ut ultricies imperdiet nulla vel
-            luctus. Nulla facilisi.
+            SoTurn is a small, cylindrical block with a motor inside that can be
+            attached to solar panels, to make them move on a vertical and
+            rotational axis, so they protrude further above ground level and are
+            always facing the sun.
           </p>
           <div className="flex items-center mb-4">
             <PackageSelector packages={whatPackage} />
