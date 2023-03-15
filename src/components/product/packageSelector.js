@@ -1,11 +1,6 @@
 import { useState } from "react";
-const packages = [
-  { name: "One Tracker", price: 100 },
-  { name: "Personal", price: 390 },
-  { name: "Personal +", price: 490 },
-];
 
-export default function packageSelector() {
+export default function packageSelector({ packages }) {
   const [selectedPackage, setSelectedPackage] = useState(packages[0]);
 
   return (
