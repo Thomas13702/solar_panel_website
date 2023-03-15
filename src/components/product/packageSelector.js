@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function packageSelector({ packages }) {
+export default function PackageSelector({ packages }) {
   const [selectedPackage, setSelectedPackage] = useState(packages[0]);
 
   return (

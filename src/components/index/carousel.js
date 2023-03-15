@@ -54,7 +54,7 @@ const reviews = [
   },
 ];
 
-export default function carousel() {
+export default function Carousel() {
   const [currentReviewIndex, setCurrentReviewIndex] = useState(0);
 
   const handlePreviousReview = () => {

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import StarPicker from "@/components/StarPicker";
 
-export default function reviews() {
+export default function Reviews() {
   const fakeReviews = [
     {
       id: 1,
