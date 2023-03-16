@@ -14,19 +14,20 @@ const photos = [
   // Add more photos here
 ];
 
-export default function ourMission() {
+export default function MeetTheTeam() {
   return (
     <Layout>
       <h1 className="text-center text-4xl font-bold mb-8">Meet the team</h1>
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {photos.map((photo) => (
           <div key={photo.src}>
             <div className="flex items-center justify-center ">
               <Image
                 src={photo.src}
                 alt={photo.caption}
-                width={200}
-                height={500}
+                width={400}
+                height={300}
+                className="w-full h-full object-cover"
               />
             </div>
             <div className="text-center">
