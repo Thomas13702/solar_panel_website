@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 
 const photos = [
-  { src: "/default.jpg", caption: "Sophie - Project Manager" },
+  { src: "/sophie.png", caption: "Sophie - Project Manager" },
   { src: "/Abdul.jpg", caption: "Abdul-Salam Jah - Researcher" },
   { src: "/Tom.jpg", caption: "Thomas Pritchard - Lead Web Designer" },
   { src: "/Enoch.png", caption: "Enoch Ng - Marketing Lead Editor" },
